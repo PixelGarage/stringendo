@@ -1,0 +1,156 @@
+/*
+ *  Header section (navigation)
+ * --------------------------------------------------*/
+
+// Variables
+// -------------------------
+@menu-font-size: 15px;
+@menu-font-size-large: 22px;
+
+// Mixins
+// -------------------------
+
+
+
+// Main settings
+// -------------------------
+body.navbar-is-fixed-top {
+  padding-top: (50px + @menu-font-size) !important;
+
+  &.admin-menu {
+    padding-top: (50px + @menu-font-size) !important;
+  }
+
+}
+
+
+header#navbar {
+  border-bottom: none;
+  background: @pxl-color-body-bg none;
+
+  .container, .container-fluid {
+    padding: 25px 20px;
+
+    .navbar-header {
+      width: 100%;
+
+      // navigation region
+      .region-navigation {
+        margin: 0;
+
+        ul.nav {
+          margin: 0;
+          padding: 0;
+          text-align: justify;
+          height: @menu-font-size;
+
+          li {
+            display: inline-block;
+
+            a {
+              padding: 0;
+              font-family: @pxl-text-font;
+              font-size: @menu-font-size;
+              letter-spacing: 0.02em;
+              line-height: 1;
+              color: @link-color;
+              text-transform: uppercase;
+              text-decoration: @link-decoration;
+
+              &:hover,
+              &.active {
+                color: @link-color-hover;
+                text-decoration: @link-decoration-hover;
+                background: none;
+              }
+
+              @media @narrow {
+                font-size: @menu-font-size-large;
+              }
+            }
+
+            &:nth-child(2) {
+              text-align: center;
+            }
+
+            &:nth-child(3) {
+              text-align: right;
+            }
+
+            &:last-child {
+              width: 100%;
+              height: 0;
+
+              span {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+
+      // header (branding)
+      a.logo {
+        display: block;
+        float: none;
+        width: 100%;
+        text-align: center;
+
+        img {
+          display: inline-block;
+          vertical-align: middle;
+          max-height: 60px;
+          width: auto;
+        }
+      }
+
+      a.navbar-brand {
+        display: inline-block;
+        vertical-align: middle;
+        float: none;
+        margin-left: @grid-gutter-width/2;
+        padding: 0;
+        font-family: @pxl-text-font-medium;
+        font-size: @font-size-h1;
+        color: @gray-darker;
+        line-height: 1;
+      }
+
+      .navbar-toggle {
+        // navbar toggle with burger
+        padding: 5px 10px;
+      }
+    }
+
+    // collapse part
+    .navbar-collapse {
+      // main menu
+      nav {
+        ul.navbar-nav {
+          margin: 0;
+
+          li {
+            height: 40px;
+
+            a {
+              padding: 7px 15px;
+              font-family: @pxl-text-font;
+              font-size: @font-size-base;
+              color: @link-color;
+              line-height: 1;
+
+              &:hover,
+              &.active {
+                color: @link-color-hover;
+                text-decoration: @link-decoration-hover;
+                background: none;
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
+

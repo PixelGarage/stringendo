@@ -1,0 +1,47 @@
+/*
+ *  Node page component
+ * --------------------------------------------------*/
+
+// Variables
+// -------------------------
+@paragraph-margin-bottom: 50px;
+
+
+// Mixins
+// -------------------------
+
+
+
+// General settings
+// -------------------------
+.node.node-page.view-mode-full,
+.node.node-page.view-mode-default {
+  margin: 30px 0;
+
+  >.row {
+    >div.col-sm-12 {
+
+      .field-name-title {
+        h2 {
+          #pxl-mixins.title();
+        }
+      }
+
+      .field-name-body {
+        margin: 0 0 80px;
+        #pxl-mixins.wysiwyg-body();
+      }
+
+      .paragraphs-items {
+        .field-name-field-paragraphs {
+          .field-item {
+            margin-bottom: @paragraph-margin-bottom;
+
+            // see paragraph-item-... less files
+          }
+        }
+      }
+
+    }
+  }
+}

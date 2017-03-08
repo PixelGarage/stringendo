@@ -1,0 +1,69 @@
+/* --------------------------------------------------
+ * Pixelgarage fonts
+ * --------------------------------------------------*/
+//
+// webfont licences
+//@import '../fonts/BrandonGrotesque/BrandonGrotesque-Licence.css';
+
+//
+// Google fonts
+//@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
+//
+// Awesome icon font
+@import '../fonts/font-awesome/less/font-awesome';
+@fa-font-path: '@{pxl-font-path}/font-awesome/fonts'; // override fa font path (lazy loading)
+
+//
+// Define customer specific fonts
+@pxl-font-path: '../fonts';
+
+// icon font
+@pxl-icon-font: 'fontawesome';
+
+// title font
+@pxl-title-font: 'AvenirNextUltraLight';
+@pxl-subtitle-font: 'AvenirNextRegular';
+
+// text fonts
+@pxl-text-font: 'AvenirNextRegular';
+@pxl-text-font-light: 'AvenirNextUltraLight';
+@pxl-text-font-medium: @pxl-text-font;
+@pxl-text-font-bold: @pxl-text-font;
+@pxl-text-font-italic: @pxl-text-font;
+@pxl-text-font-light-italic: @pxl-text-font;
+@pxl-text-font-medium-italic: @pxl-text-font;
+@pxl-text-font-bold-italic: @pxl-text-font;
+
+// form font
+@pxl-form-font: @pxl-text-font;
+
+// overrides
+@font-family-base: @pxl-text-font;
+@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:       Georgia, "Times New Roman", Times, serif;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+@font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+
+//
+// font faces
+//
+@font-face {
+  font-family: 'AvenirNextRegular';
+  src: url('@{pxl-font-path}/AvenirNextRegular/AvenirNextRegular.eot');
+  src: url('@{pxl-font-path}/AvenirNextRegular/AvenirNextRegular.eot') format('embedded-opentype'),
+  url('@{pxl-font-path}/AvenirNextRegular/AvenirNextRegular.woff2') format('woff2'),
+  url('@{pxl-font-path}/AvenirNextRegular/AvenirNextRegular.woff') format('woff'),
+  url('@{pxl-font-path}/AvenirNextRegular/AvenirNextRegular.ttf') format('truetype'),
+  url('@{pxl-font-path}/AvenirNextRegular/AvenirNextRegular.svg#AvenirNextRegular') format('svg');
+}
+@font-face {
+  font-family: 'AvenirNextUltraLight';
+  src: url('@{pxl-font-path}/AvenirNextUltraLight/AvenirNextUltraLight.eot');
+  src: url('@{pxl-font-path}/AvenirNextUltraLight/AvenirNextUltraLight.eot') format('embedded-opentype'),
+  url('@{pxl-font-path}/AvenirNextUltraLight/AvenirNextUltraLight.woff2') format('woff2'),
+  url('@{pxl-font-path}/AvenirNextUltraLight/AvenirNextUltraLight.woff') format('woff'),
+  url('@{pxl-font-path}/AvenirNextUltraLight/AvenirNextUltraLight.ttf') format('truetype'),
+  url('@{pxl-font-path}/AvenirNextUltraLight/AvenirNextUltraLight.svg#AvenirNextUltraLight') format('svg');
+}
+
