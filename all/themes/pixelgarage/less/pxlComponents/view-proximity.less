@@ -4,7 +4,7 @@
 
 // Variables
 // -------------------------
-@grid-gutter-dist: 3%;  // in %
+@grid-gutter-dist: 1.875%;  // in %
 
 
 // Mixins
@@ -28,6 +28,7 @@
 
       .gutter-sizer {
         width: @grid-gutter-dist;
+        height: @grid-gutter-dist;
       }
     }
 
@@ -40,13 +41,9 @@
     .pe-item {
       display: block;
       overflow: visible;
-      margin: 0 0 (2 * @grid-gutter-dist) !important;
+      margin: 0 !important;
       opacity: 1.0;
       #pxl-mixins.transition(opacity 1s);
-
-      @media @narrow {
-        margin: 0 0 @grid-gutter-dist !important;
-      }
 
       &.shown {
         opacity: 1.0;

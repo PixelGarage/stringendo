@@ -2363,14 +2363,14 @@
 .pxl-title {
   margin: 20px auto;
   font-family: 'AvenirNextUltraLight';
-  font-size: 36px;
+  font-size: 24px;
   letter-spacing: normal;
-  line-height: 58px;
+  line-height: 1.2em;
   text-align: left;
   color: #fff;
   color: #000;
 }
-@media screen and (min-width: 32.60377358490566em) {
+@media screen and (min-width: 21.735849056603772em) {
   .pxl-title {
     font-size: 6.90104167vw;
   }
@@ -2435,17 +2435,15 @@
 }
 .pxl-glow {
   font-family: 'AvenirNextUltraLight';
-  font-size: 70px;
+  font-size: 50px;
   letter-spacing: 0.2em;
   line-height: 1;
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  -webkit-animation: text-glow 3s ease-in-out infinite alternate;
-  -o-animation: text-glow 3s ease-in-out infinite alternate;
-  animation: text-glow 3s ease-in-out infinite alternate;
+  text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
 }
-@media screen and (min-width: 33.6em) {
+@media screen and (min-width: 24em) {
   .pxl-glow {
     font-size: 13.02083333vw;
   }
@@ -2460,41 +2458,17 @@
     font-size: 100px;
   }
 }
-@-webkit-keyframes text-glow {
-  from {
-    text-shadow: 0 0 4px #40856D, 0 0 4px #40856D, 0 0 4px #40856D, 0 0 8px #40856D, 0 0 8px #40856D, 0 0 8px #40856D, 0 0 10px #40856D, 0 0 12px #40856D;
-  }
-  to {
-    text-shadow: 0 0 8px #40856D, 0 0 8px #40856D, 0 0 8px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 24px #40856D, 0 0 28px #40856D;
-  }
-}
-@-moz-keyframes text-glow {
-  from {
-    text-shadow: 0 0 4px #40856D, 0 0 4px #40856D, 0 0 4px #40856D, 0 0 8px #40856D, 0 0 8px #40856D, 0 0 8px #40856D, 0 0 10px #40856D, 0 0 12px #40856D;
-  }
-  to {
-    text-shadow: 0 0 8px #40856D, 0 0 8px #40856D, 0 0 8px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 24px #40856D, 0 0 28px #40856D;
-  }
-}
-@keyframes text-glow {
-  from {
-    text-shadow: 0 0 4px #40856D, 0 0 4px #40856D, 0 0 4px #40856D, 0 0 8px #40856D, 0 0 8px #40856D, 0 0 8px #40856D, 0 0 10px #40856D, 0 0 12px #40856D;
-  }
-  to {
-    text-shadow: 0 0 8px #40856D, 0 0 8px #40856D, 0 0 8px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 24px #40856D, 0 0 28px #40856D;
-  }
-}
 .pxl-quote {
   font-family: 'AvenirNextUltraLight';
-  font-size: 36px;
+  font-size: 24px;
   letter-spacing: normal;
-  line-height: 58px;
+  line-height: 1.2em;
   text-align: left;
   color: #fff;
   text-align: center;
   color: #000;
 }
-@media screen and (min-width: 32.60377358490566em) {
+@media screen and (min-width: 21.735849056603772em) {
   .pxl-quote {
     font-size: 6.90104167vw;
   }

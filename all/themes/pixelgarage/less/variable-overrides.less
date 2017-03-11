@@ -61,7 +61,7 @@
 @subtitle-text-align: left;
 
 @title-letter-spacing: normal;
-@title-line-height: 58px;
+@title-line-height: 1.2em;
 @title-text-align: left;
 
 @form-letter-spacing: normal;
@@ -78,7 +78,7 @@
 @resp-subtitle-size-med:  23px;
 @resp-subtitle-size-max:  23px;
 
-@resp-title-size-min:     36px;
+@resp-title-size-min:     24px;
 @resp-title-size-med:     53px;
 @resp-title-size-max:     53px;
 
@@ -191,6 +191,8 @@
 //** For `@screen-lg-min` and up.
 @container-lg:                 @container-large-desktop;
 
+@container-max-width: 1100px;
+
 
 //== Components
 //
@@ -199,6 +201,10 @@
 @region-content-margin: 30px 0;
 // block/group
 @block-padding: 20px 0 30px;
+
+// paragraphs
+@paragraph-margin-bottom-small: 30px;
+@paragraph-margin-bottom: 50px;
 
 // nodes
 @node-padding: 0;

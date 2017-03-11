@@ -1,0 +1,32 @@
+/*
+ *  Proximity view component
+ * --------------------------------------------------*/
+
+// Variables
+// -------------------------
+@grid-gutter-dist: 3%;  // in %
+@grid-row-height: 250px;
+
+
+// Mixins
+// -------------------------
+
+
+
+// General settings
+// -------------------------
+.view.view-music-albums {
+  width: 100%;
+
+  .view-content {
+    padding: 0;
+    .proximity-list();
+  }
+
+  //
+  // infinite scrolling more button
+  .pager.pager--infinite-scroll {
+    .infinite-scroll-button();
+  }
+}
+

@@ -1,0 +1,80 @@
+/*
+ *  Node note component
+ * --------------------------------------------------*/
+
+// Variables
+// -------------------------
+
+// Mixins
+// -------------------------
+
+
+
+// General settings
+// -------------------------
+.node.node-note.view-mode-teaser {
+
+  >.row {
+    >div.col-sm-12 {
+      width: 100%;
+
+      >.field-name-field-image {
+        .field-item {
+          padding: 2px;
+          background: @pxl-color-black url(../images/rainbow_square.png) no-repeat top left / cover;
+
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+.node.node-note.view-mode-default,
+.node.node-note.view-mode-full {
+
+  >.row {
+    >div.col-sm-12 {
+      width: 100%;
+
+      >.field-name-title {
+        h2 {
+          #pxl-mixins.title();
+        }
+      }
+
+      >.field-name-field-image {
+        margin: 0 0 @node-field-margin-bottom;
+
+        .field-item {
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+
+      >.field-name-post-date {
+        margin: 0 0 @node-field-margin-bottom;
+        padding: 15px 0;
+        border-bottom: 2px solid black;
+
+        .field-item {
+          span {
+            font-family: @pxl-text-font;
+            font-size: @resp-font-size-max;
+          }
+        }
+      }
+
+      >.field-name-body {
+        margin: 0 0 @node-field-margin-bottom;
+        #pxl-mixins.wysiwyg-body();
+      }
+
+    }
+  }
+}

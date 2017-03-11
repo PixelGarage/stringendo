@@ -1,0 +1,271 @@
+/*
+ *  Node album component
+ * --------------------------------------------------*/
+
+// Variables
+// -------------------------
+
+
+// Mixins
+// -------------------------
+
+
+
+// General settings
+// -------------------------
+.node.node-album.view-mode-teaser {
+  margin: 0 10px 30px;
+
+  >.row {
+    >div.col-sm-4 {
+      display: block;
+      padding-top: 15px;
+      width: 100%;
+
+      @media @narrow {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 -2px;
+        width: 33.333333%;
+      }
+
+      .field-name-field-image {
+        .field-item {
+          img {
+            display: block;
+            overflow: hidden;
+            margin: 0 auto;
+            padding: 0;
+            max-width: 100%;
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+
+    >div.col-sm-8 {
+      display: block;
+      padding-top: 15px;
+      width: 100%;
+
+      @media @narrow {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 -2px;
+        width: 66.666666%;
+      }
+
+      >.field-name-title {
+        h2 {
+          margin: 0;
+          font-family: @pxl-text-font;
+          font-weight: 700;
+          #pxl-mixins.font-size-responsive();
+          text-transform: uppercase;
+          letter-spacing: 0.02em;
+          line-height: 1.2;
+          color: @text-color;
+        }
+      }
+
+      >.field-name-field-subtitle {
+        .field-item {
+          font-family: @pxl-text-font;
+          font-size: @resp-font-size-max;
+          font-style: italic;
+          letter-spacing: 0.02em;
+          line-height: 1.2;
+          color: @text-color;
+        }
+      }
+
+      >.field-name-field-artist {
+        margin: 8px 0 0;
+        line-height: 1.2;
+
+        .field-label {
+          display: none;
+          vertical-align: top;
+          font-family: @pxl-text-font;
+          font-weight: 700;
+          font-size: @resp-font-size-max;
+        }
+
+        .field-items {
+          display: inline-block;
+          vertical-align: top;
+
+          .field-item {
+            font-family: @pxl-text-font;
+            font-size: @resp-font-size-max;
+            white-space: normal;
+          }
+        }
+      }
+
+      >.field-name-field-publisher {
+        line-height: 1.2;
+
+        .field-label {
+          display: inline-block;
+          font-family: @pxl-text-font;
+          font-weight: 700;
+          font-size: @resp-font-size-max;
+        }
+
+        .field-items {
+          display: inline-block;
+
+          .field-item {
+            font-family: @pxl-text-font;
+            font-size: @resp-font-size-max;
+          }
+        }
+      }
+
+      >.field-name-field-published {
+        line-height: 1.2;
+
+        .field-label {
+          display: inline-block;
+          font-family: @pxl-text-font;
+          font-weight: 700;
+          font-size: @resp-font-size-max;
+        }
+
+        .field-items {
+          display: inline-block;
+
+          .field-item {
+            font-family: @pxl-text-font;
+            font-size: @resp-font-size-max;
+          }
+        }
+      }
+
+      >.field-name-body {
+        margin: 0 0 20px;
+        #pxl-mixins.wysiwyg-body();
+      }
+
+    }
+  }
+}
+
+.node.node-album.view-mode-full,
+.node.node-album.view-mode-default {
+  margin: 0;
+
+  >.row {
+    >div.col-sm-6 {
+      >.field-name-field-image {
+        .field-item {
+          img {
+            display: block;
+            overflow: hidden;
+            margin: 0 auto;
+            padding: 0;
+            max-width: 100%;
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+
+      >.field-name-title {
+        h2 {
+          margin: 0 0 10px;
+          font-family: @pxl-text-font;
+          #pxl-mixins.font-size-responsive(@resp-title-size-max, @resp-title-size-min);
+          text-transform: uppercase;
+          letter-spacing: 0.02em;
+          line-height: 1.2;
+          color: @text-color;
+        }
+      }
+
+      >.field-name-field-subtitle {
+        .field-item {
+          margin: 10px 0;
+          font-family: @pxl-text-font;
+          font-size: @resp-font-size-max;
+          letter-spacing: 0.02em;
+          line-height: 1;
+          color: @text-color;
+        }
+      }
+
+      >.field-name-field-artist {
+        .field-label {
+          display: inline-block;
+          font-family: @pxl-text-font;
+          font-weight: 700;
+          font-size: @resp-font-size-max;
+        }
+
+        .field-items {
+          display: inline-block;
+
+          .field-item {
+            font-family: @pxl-text-font;
+            font-size: @resp-font-size-max;
+          }
+        }
+      }
+
+      >.field-name-field-publisher {
+        .field-label {
+          display: inline-block;
+          font-family: @pxl-text-font;
+          font-weight: 700;
+          font-size: @resp-font-size-max;
+        }
+
+        .field-items {
+          display: inline-block;
+
+          .field-item {
+            font-family: @pxl-text-font;
+            font-size: @resp-font-size-max;
+          }
+        }
+      }
+
+      >.field-name-field-published {
+        .field-label {
+          display: inline-block;
+          font-family: @pxl-text-font;
+          font-weight: 700;
+          font-size: @resp-font-size-max;
+        }
+
+        .field-items {
+          display: inline-block;
+
+          .field-item {
+            font-family: @pxl-text-font;
+            font-size: @resp-font-size-max;
+          }
+        }
+      }
+    }
+
+    >div.col-sm-12 {
+      >.field-name-body {
+        margin: 30px 0;
+        #pxl-mixins.wysiwyg-body();
+      }
+
+      >.field-name-field-soundcloud {
+        .field-item {
+          iframe {
+
+          }
+        }
+      }
+
+    }
+  }
+}
+

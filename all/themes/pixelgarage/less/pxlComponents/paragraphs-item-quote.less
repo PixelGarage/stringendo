@@ -13,7 +13,7 @@
 // Component
 // -------------------------
 .entity-paragraphs-item.paragraphs-item-quote {
-  margin: 0 auto;
+  margin: 0 auto @paragraph-margin-bottom-small;
   width: 85%;
 
   .row {
@@ -33,6 +33,7 @@
   }
 
   @media @tablet {
+    margin: 0 auto @paragraph-margin-bottom;
     width: 74.516129%;
   }
 }

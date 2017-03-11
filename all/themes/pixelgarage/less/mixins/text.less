@@ -108,15 +108,15 @@
 
   .glow() {
     font-family: @pxl-text-font-light;
-    .font-size-responsive(100px, 100px, 70px);
+    .font-size-responsive(100px, 100px, 50px);
     letter-spacing: 0.2em;
     line-height: 1;
     text-align: center;
     text-transform: uppercase;
     color: @text-color;
-    .animation(text-glow 3s ease-in-out infinite alternate);
-    .keyframes-text-glow();
-  }
+    //.animation(text-glow 3s ease-in-out infinite alternate);
+    //.keyframes-text-glow();
+    text-shadow: 0 0 10px @pxl-color-glow, 0 0 10px @pxl-color-glow, 0 0 10px @pxl-color-glow, 0 0 20px @pxl-color-glow, 0 0 20px @pxl-color-glow, 0 0 20px @pxl-color-glow, 0 0 20px @pxl-color-glow, 0 0 30px @pxl-color-glow;  }
 
 
   //
@@ -135,7 +135,7 @@
     p {
       margin: 0 0 10px;
       .text();
-      .hyphenate;
+      //.hyphenate;
 
       &:first-child:not(.pxl-glow):not(.pxl-quote) {
         &::first-letter {
@@ -229,16 +229,16 @@
 
   .keyframes-text-glow(@color: @pxl-color-glow) {
     @-webkit-keyframes text-glow {
-      from { text-shadow: 0 0 4px @color, 0 0 4px @color, 0 0 4px @color, 0 0 8px @color, 0 0 8px @color, 0 0 8px @color, 0 0 10px @color, 0 0 12px @color;  }
-      to   { text-shadow: 0 0 8px @color, 0 0 8px @color, 0 0 8px @color, 0 0 20px @color, 0 0 20px @color, 0 0 20px @color, 0 0 24px @color, 0 0 28px @color;  }
+      from { text-shadow: 0 0 8px @color, 0 0 8px @color, 0 0 8px @color, 0 0 12px @color, 0 0 12px @color, 0 0 12px @color, 0 0 18px @color, 0 0 22px @color;  }
+      to   { text-shadow: 0 0 12px @color, 0 0 12px @color, 0 0 12px @color, 0 0 24px @color, 0 0 24px @color, 0 0 24px @color, 0 0 24px @color, 0 0 32px @color;  }
     }
     @-moz-keyframes text-glow {
-      from { text-shadow: 0 0 4px @color, 0 0 4px @color, 0 0 4px @color, 0 0 8px @color, 0 0 8px @color, 0 0 8px @color, 0 0 10px @color, 0 0 12px @color;  }
-      to   { text-shadow: 0 0 8px @color, 0 0 8px @color, 0 0 8px @color, 0 0 20px @color, 0 0 20px @color, 0 0 20px @color, 0 0 24px @color, 0 0 28px @color;  }
+      from { text-shadow: 0 0 8px @color, 0 0 8px @color, 0 0 8px @color, 0 0 12px @color, 0 0 12px @color, 0 0 12px @color, 0 0 18px @color, 0 0 22px @color;  }
+      to   { text-shadow: 0 0 12px @color, 0 0 12px @color, 0 0 12px @color, 0 0 24px @color, 0 0 24px @color, 0 0 24px @color, 0 0 24px @color, 0 0 32px @color;  }
     }
     @keyframes text-glow {
-      from { text-shadow: 0 0 4px @color, 0 0 4px @color, 0 0 4px @color, 0 0 8px @color, 0 0 8px @color, 0 0 8px @color, 0 0 10px @color, 0 0 12px @color;  }
-      to   { text-shadow: 0 0 8px @color, 0 0 8px @color, 0 0 8px @color, 0 0 20px @color, 0 0 20px @color, 0 0 20px @color, 0 0 24px @color, 0 0 28px @color;  }
+      from { text-shadow: 0 0 8px @color, 0 0 8px @color, 0 0 8px @color, 0 0 12px @color, 0 0 12px @color, 0 0 12px @color, 0 0 18px @color, 0 0 22px @color;  }
+      to   { text-shadow: 0 0 12px @color, 0 0 12px @color, 0 0 12px @color, 0 0 24px @color, 0 0 24px @color, 0 0 24px @color, 0 0 24px @color, 0 0 32px @color;  }
     }
   }
 
