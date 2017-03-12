@@ -1,4 +1,9 @@
-<div id="views-bootstrap-carousel-<?php print $id ?>" class="<?php print $classes ?>" <?php print $attributes ?>>
+<?php
+$prev_img_url = file_create_url(drupal_get_path('theme', 'pixelgarage') . '/images/pfeil_links.svg');
+$next_img_url = file_create_url(drupal_get_path('theme', 'pixelgarage') . '/images/pfeil_rechts.svg');
+?>
+
+<div id="views-bootstrap-carousel-<?php print $id ?>" class="carousel-fade <?php print $classes ?>" <?php print $attributes ?>>
   <?php if ($indicators): ?>
     <!-- Carousel indicators -->
     <ol class="carousel-indicators">
@@ -20,10 +25,12 @@
   <?php if ($navigation): ?>
     <!-- Carousel navigation -->
     <a class="carousel-control left" href="#views-bootstrap-carousel-<?php print $id ?>" data-slide="prev">
-      <span class="icon-prev"></span>
+      <img src="<?php print $prev_img_url ?>" class="left"/>
+      <span class="sr-only">Previous</span>
     </a>
     <a class="carousel-control right" href="#views-bootstrap-carousel-<?php print $id ?>" data-slide="next">
-      <span class="icon-next"></span>
+      <img src="<?php print $next_img_url ?>" class="right"/>
+      <span class="sr-only">Next</span>
     </a>
   <?php endif ?>
 </div>

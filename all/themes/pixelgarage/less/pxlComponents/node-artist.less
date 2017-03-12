@@ -1,5 +1,5 @@
 /*
- *  Node note component
+ *  Node artist component
  * --------------------------------------------------*/
 
 // Variables
@@ -12,7 +12,7 @@
 
 // General settings
 // -------------------------
-.node.node-note.view-mode-teaser {
+.node.node-artist.view-mode-teaser {
 
   >.row {
     >div.col-sm-12 {
@@ -20,7 +20,9 @@
 
       >.field-name-field-image {
         .field-item {
-          .rainbow-frame();
+          overflow: hidden;
+          padding: 2px;
+          #pxl-mixins.border-radius(50%);
 
           img {
             width: 100%;
@@ -28,17 +30,27 @@
           }
         }
       }
+
+      >.field-name-field-nickname {
+        padding: 0;
+
+        .field-item {
+          #pxl-mixins.text();
+          text-align: center;
+        }
+      }
     }
   }
 }
 
-.node.node-note.view-mode-default,
-.node.node-note.view-mode-full {
+.node.node-artist.view-mode-default,
+.node.node-artist.view-mode-full {
 
   >.row {
     >div.col-sm-6 {
       >.field-name-title {
         h2 {
+          margin: 0 auto 30px;
           #pxl-mixins.title();
         }
       }
@@ -47,7 +59,9 @@
         margin: 0 0 @node-field-margin-bottom;
 
         .field-item {
-          .rainbow-frame();
+          overflow: hidden;
+          padding: 2px;
+          #pxl-mixins.border-radius(50%);
 
           img {
             width: 100%;
@@ -56,19 +70,16 @@
         }
       }
 
-      >.field-name-post-date {
-        margin: 0 0 @node-field-margin-bottom;
-        padding: 0;
-
-        .field-item {
-          #pxl-mixins.subtitle();
-        }
-      }
-
       >.field-name-body {
         margin: 0 0 @node-field-margin-bottom;
         #pxl-mixins.wysiwyg-body();
         #pxl-mixins.hyphenate();
+      }
+
+      >.field-name-field-certificates {
+        .field-item {
+          #pxl-mixins.text();
+        }
       }
 
     }

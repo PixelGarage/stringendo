@@ -4,13 +4,13 @@
 
 // Variables
 // -------------------------
-@grid-gutter-dist: 1.875%;  // in %
+@masonry-gutter-dist: 1.875%;  // in %
 
 
 // Mixins
 // -------------------------
 
-.proximity-list() {
+.masonry() {
   > .pe-container {
 
     .grid-sizer, .pe-item {
@@ -23,25 +23,24 @@
 
     @media @narrow {
       .grid-sizer, .pe-item {
-        width: (50% - @grid-gutter-dist/2);
+        width: (50% - @masonry-gutter-dist/2);
       }
 
       .gutter-sizer {
-        width: @grid-gutter-dist;
-        height: @grid-gutter-dist;
+        width: @masonry-gutter-dist;
       }
     }
 
     @media @normal {
       .grid-sizer, .pe-item {
-        width: (33.333333% - @grid-gutter-dist*2/3);
+        width: (33.333333% - @masonry-gutter-dist*2/3);
       }
     }
 
     .pe-item {
-      display: block;
+      display: inline-block;
       overflow: visible;
-      margin: 0 !important;
+      margin: 0 0 @masonry-gutter-dist !important;
       opacity: 1.0;
       #pxl-mixins.transition(opacity 1s);
 
@@ -62,7 +61,7 @@
   }
 }
 
-.infinite-scroll-button(@color: @pxl-color-main) {
+.infinite-scroll-button(@color: @text-color; @bg-color: @pxl-color-bg-button) {
   .pager__item {
     a {
       display: inline-block;
@@ -71,12 +70,12 @@
       font-size: @font-size-base;
       line-height: 1;
       color: @color;
-      #pxl-mixins.border-radius(3px);
+      #pxl-mixins.border-radius(0);
       border: 1px solid @color;
-      background-color: #fff;
+      background-color: @bg-color;
 
       &:hover, &.active {
-        color: #fff;
+        color: @bg-color;
         background-color: @color;
       }
     }
@@ -90,7 +89,7 @@
 
   .view-content {
     padding: 0;
-    .proximity-list();
+    .masonry();
   }
 
   //

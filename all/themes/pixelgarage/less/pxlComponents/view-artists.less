@@ -1,0 +1,125 @@
+/*
+ *  Artists view component
+ * --------------------------------------------------*/
+
+// Variables
+// -------------------------
+@regular-gutter-dist: 2.181818%;
+@pager-item-size: 15px;
+
+// Mixins
+// -------------------------
+
+.regular-grid() {
+  > .pe-container {
+
+    .grid-sizer, .pe-item {
+      width: (33.333333% - @regular-gutter-dist*2/3);
+    }
+
+    .gutter-sizer {
+      width: @regular-gutter-dist;
+    }
+
+    .pe-item {
+      display: inline-block;
+      overflow: visible;
+      margin: 0 0 @regular-gutter-dist !important;
+      opacity: 1.0;
+      #pxl-mixins.transition(opacity 1s);
+
+      &.shown {
+        opacity: 1.0;
+      }
+
+      &.pe-item-ajax, &.pe-item-no-ajax, &.pe-item-linked {
+        cursor: pointer;
+        // see nodes styling (posts, testimonials, SoMe etc.)
+      }
+    }
+
+    // modal dialog
+    .modal {
+      #pxl-mixins.modal();
+    }
+  }
+}
+
+.view-pager() {
+  ul.pagination {
+    display: inline-block;
+    margin: 10px 0;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      margin: 0 2px;
+      padding: 2px;
+      #pxl-mixins.border-radius(50%);
+      background: @pxl-color-black url(../images/kreis_verlauf_1.svg) no-repeat top left / contain;
+
+      &:nth-child(4n + 1) {
+        background: @pxl-color-black url(../images/kreis_verlauf_2.svg) no-repeat top left / contain;
+      }
+      &:nth-child(4n + 2) {
+        background: @pxl-color-black url(../images/kreis_verlauf_3.svg) no-repeat top left / contain;
+      }
+      &:nth-child(4n + 3) {
+        background: @pxl-color-black url(../images/kreis_verlauf_4.svg) no-repeat top left / contain;
+      }
+
+      a, span {
+        overflow: hidden;
+        display: block;
+        padding: 0;
+        text-indent: 100%;
+        width: @pager-item-size;
+        height: @pager-item-size;
+        border: none;
+        #pxl-mixins.border-radius(50%);
+        background: none;
+      }
+
+      &:hover, &:focus, &.active {
+        a, span {
+          text-decoration: none;
+          background: @pxl-color-black;
+        }
+      }
+
+      &.pager-first,
+      &.pager-last {
+        display: none;
+      }
+
+      &.prev,
+      &.next {
+        display: none;
+      }
+
+      &.ellipsis {
+        span {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+// General settings
+// -------------------------
+.view.view-artists {
+  width: 100%;
+
+  .view-content {
+    padding: 0;
+    .regular-grid();
+  }
+
+  //
+  // pager
+  .text-center {
+    .view-pager();
+  }
+}
+

@@ -116,8 +116,17 @@
     color: @text-color;
     //.animation(text-glow 3s ease-in-out infinite alternate);
     //.keyframes-text-glow();
-    text-shadow: 0 0 10px @pxl-color-glow, 0 0 10px @pxl-color-glow, 0 0 10px @pxl-color-glow, 0 0 20px @pxl-color-glow, 0 0 20px @pxl-color-glow, 0 0 20px @pxl-color-glow, 0 0 20px @pxl-color-glow, 0 0 30px @pxl-color-glow;  }
+    text-shadow: 0 0 10px @pxl-color-glow, 0 0 10px @pxl-color-glow, 0 0 10px @pxl-color-glow, 0 0 20px @pxl-color-glow, 0 0 20px @pxl-color-glow, 0 0 20px @pxl-color-glow, 0 0 20px @pxl-color-glow, 0 0 30px @pxl-color-glow;
+  }
 
+  .first-letter() {
+    p:first-child::first-letter {
+      .title();
+      float: left;
+      vertical-align: top;
+      padding-right: 10px;
+    }
+  }
 
   //
   // WYSIWYG body
@@ -133,22 +142,13 @@
     }
 
     p {
-      margin: 0 0 10px;
+      margin: 0 0 20px;
       .text();
       //.hyphenate;
-
-      &:first-child:not(.pxl-glow):not(.pxl-quote) {
-        &::first-letter {
-          .title();
-          float: left;
-          vertical-align: top;
-        }
-      }
     }
 
     .pxl-glow {
       .glow();
-      .hyphenate(none);
     }
 
     .pxl-quote {

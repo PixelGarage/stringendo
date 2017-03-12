@@ -13,7 +13,7 @@
 // Component
 // -------------------------
 .entity-paragraphs-item.paragraphs-item-text-paragraph {
-  margin: 0 auto @paragraph-margin-bottom-small;
+  margin: 0 auto;
   width: 85%;
 
   .row {
@@ -28,13 +28,13 @@
         .field-item {
           #pxl-mixins.wysiwyg-body();
           #pxl-mixins.hyphenate;
+          #pxl-mixins.first-letter();
         }
       }
     }
   }
 
   @media @tablet {
-    margin: 0 auto @paragraph-margin-bottom;
     width: 74.516129%;
 
     .row {

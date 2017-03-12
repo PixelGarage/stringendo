@@ -1,0 +1,66 @@
+/*
+ *  Banner view component
+ * --------------------------------------------------*/
+
+// Variables
+// -------------------------
+
+
+// Mixins
+// -------------------------
+
+
+
+// General settings
+// -------------------------
+.view.view-banners.view-display-id-block_banners {
+  width: 100%;
+
+  .view-content {
+    padding: 0;
+
+    .carousel {
+      display: block;
+      position: relative;
+      margin: 0 auto;
+      padding: 0;
+      width: 100%;
+      height: auto;
+
+      // fading carousel
+      &.carousel-fade {
+        #pxl-mixins.carousel-fade();
+      }
+
+      > .carousel-inner {
+        margin-top: 0;
+
+        .item {
+          &.active {
+
+          }
+        }
+      }
+
+      > a.carousel-control {
+        #pxl-mixins.carousel-control(25%);
+
+        img {
+          display: block;
+          text-align: unset;
+          #pxl-mixins.center-vertically(absolute);
+          width: 35px;
+          height: 55px;
+
+          &.left {
+            left: 5%;
+          }
+          &.right {
+            right: 5%;
+          }
+        }
+      }
+    }
+  }
+}
+

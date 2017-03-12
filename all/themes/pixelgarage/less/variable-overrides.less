@@ -20,8 +20,8 @@
 @pxl-color-border-active: @pxl-color-main;
 
 // buttons
-@pxl-color-bg-button: @pxl-color-main;
-@pxl-color-bg-button-hover: #fff;
+@pxl-color-bg-button: @pxl-color-black;
+@pxl-color-bg-button-hover: @pxl-color-white;
 
 
   // backgrounds
@@ -191,7 +191,7 @@
 //** For `@screen-lg-min` and up.
 @container-lg:                 @container-large-desktop;
 
-@container-max-width: 1100px;
+@container-max-width: 1060px + @grid-gutter-width;
 
 
 //== Components
@@ -203,8 +203,8 @@
 @block-padding: 20px 0 30px;
 
 // paragraphs
-@paragraph-margin-bottom-small: 30px;
-@paragraph-margin-bottom: 50px;
+@paragraph-margin-bottom: 30px;
+@paragraph-margin-bottom-large: 50px;
 
 // nodes
 @node-padding: 0;
