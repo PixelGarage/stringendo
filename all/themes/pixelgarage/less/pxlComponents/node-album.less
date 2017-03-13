@@ -4,28 +4,36 @@
 
 // Variables
 // -------------------------
+@pxl-album-play-btn-size: 30%;
+@pxl-album-play-btn-size-narrow: 50%;
 
 
 // Mixins
 // -------------------------
 
+.field-label() {
+  display: inline-block;
+  #pxl-mixins.text();
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+}
 
 
 // General settings
 // -------------------------
 .node.node-album.view-mode-teaser {
-  margin: 0 10px 30px;
-
   >.row {
     >div.col-sm-4 {
       display: block;
-      padding-top: 15px;
+      position: relative;
       width: 100%;
+      margin: 0 0 30px;
 
       @media @narrow {
         display: inline-block;
         vertical-align: top;
-        margin: 0 -2px;
+        margin: 0 -2px 30px;
         width: 33.333333%;
       }
 
@@ -42,126 +50,98 @@
           }
         }
       }
+      >.video-play-button {
+        #pxl-mixins.center-xy(absolute);
+        width: @pxl-album-play-btn-size;
+        height: auto;
+
+        @media @narrow {
+          width: @pxl-album-play-btn-size-narrow;
+        }
+      }
     }
 
     >div.col-sm-8 {
       display: block;
-      padding-top: 15px;
       width: 100%;
+      margin: 0 0 30px;
 
       @media @narrow {
         display: inline-block;
         vertical-align: top;
-        margin: 0 -2px;
+        margin: 0 -2px 30px;
         width: 66.666666%;
       }
 
       >.field-name-title {
         h2 {
           margin: 0;
-          font-family: @pxl-text-font;
-          font-weight: 700;
-          #pxl-mixins.font-size-responsive();
+          #pxl-mixins.subtitle();
           text-transform: uppercase;
           letter-spacing: 0.02em;
-          line-height: 1.2;
-          color: @text-color;
         }
       }
 
       >.field-name-field-subtitle {
         .field-item {
-          font-family: @pxl-text-font;
-          font-size: @resp-font-size-max;
+          margin: 0 0 8px;
+          #pxl-mixins.text();
           font-style: italic;
-          letter-spacing: 0.02em;
-          line-height: 1.2;
-          color: @text-color;
         }
       }
 
       >.field-name-field-artist {
-        margin: 8px 0 0;
-        line-height: 1.2;
+        margin: 0 0 8px;
 
-        .field-label {
-          display: none;
-          vertical-align: top;
-          font-family: @pxl-text-font;
-          font-weight: 700;
-          font-size: @resp-font-size-max;
-        }
-
-        .field-items {
-          display: inline-block;
-          vertical-align: top;
-
-          .field-item {
-            font-family: @pxl-text-font;
-            font-size: @resp-font-size-max;
-            white-space: normal;
-          }
+        .field-item {
+          #pxl-mixins.text();
+          line-height: 1.2;
         }
       }
 
       >.field-name-field-publisher {
-        line-height: 1.2;
-
         .field-label {
-          display: inline-block;
-          font-family: @pxl-text-font;
-          font-weight: 700;
-          font-size: @resp-font-size-max;
+          .field-label();
         }
 
         .field-items {
           display: inline-block;
 
           .field-item {
-            font-family: @pxl-text-font;
-            font-size: @resp-font-size-max;
+            #pxl-mixins.text();
+            line-height: 1.2;
           }
         }
       }
 
       >.field-name-field-published {
-        line-height: 1.2;
-
         .field-label {
-          display: inline-block;
-          font-family: @pxl-text-font;
-          font-weight: 700;
-          font-size: @resp-font-size-max;
+          .field-label();
         }
 
         .field-items {
           display: inline-block;
 
           .field-item {
-            font-family: @pxl-text-font;
-            font-size: @resp-font-size-max;
+            #pxl-mixins.text();
+            line-height: 1.2;
           }
         }
       }
-
-      >.field-name-body {
-        margin: 0 0 20px;
-        #pxl-mixins.wysiwyg-body();
-        #pxl-mixins.hyphenate();
-      }
-
     }
   }
 }
 
 .node.node-album.view-mode-full,
 .node.node-album.view-mode-default {
-  margin: 0;
-
   >.row {
     >div.col-sm-6 {
+      margin: 0 0 30px;
+
       >.field-name-field-image {
         .field-item {
+          .rainbow-frame();
+
           img {
             display: block;
             overflow: hidden;
@@ -176,77 +156,57 @@
 
       >.field-name-title {
         h2 {
-          margin: 0 0 10px;
-          font-family: @pxl-text-font;
-          #pxl-mixins.font-size-responsive(@resp-title-size-max, @resp-title-size-min);
+          margin: 0 auto 10px;
+          #pxl-mixins.subtitle();
           text-transform: uppercase;
           letter-spacing: 0.02em;
-          line-height: 1.2;
-          color: @text-color;
         }
       }
 
       >.field-name-field-subtitle {
         .field-item {
-          margin: 10px 0;
-          font-family: @pxl-text-font;
-          font-size: @resp-font-size-max;
+          margin: 0 0 8px;
+          #pxl-mixins.text();
+          font-style: italic;
           letter-spacing: 0.02em;
-          line-height: 1;
-          color: @text-color;
         }
       }
 
       >.field-name-field-artist {
-        .field-label {
-          display: inline-block;
-          font-family: @pxl-text-font;
-          font-weight: 700;
-          font-size: @resp-font-size-max;
-        }
+        margin: 0 0 8px;
 
-        .field-items {
-          display: inline-block;
-
-          .field-item {
-            font-family: @pxl-text-font;
-            font-size: @resp-font-size-max;
-          }
+        .field-item {
+          #pxl-mixins.text();
+          line-height: 1.2;
         }
       }
 
       >.field-name-field-publisher {
         .field-label {
-          display: inline-block;
-          font-family: @pxl-text-font;
-          font-weight: 700;
-          font-size: @resp-font-size-max;
+          .field-label();
         }
 
         .field-items {
           display: inline-block;
 
           .field-item {
-            font-family: @pxl-text-font;
-            font-size: @resp-font-size-max;
+            #pxl-mixins.text();
+            line-height: 1.2;
           }
         }
       }
 
       >.field-name-field-published {
         .field-label {
-          display: inline-block;
-          font-family: @pxl-text-font;
-          font-weight: 700;
-          font-size: @resp-font-size-max;
+          .field-label();
         }
 
         .field-items {
           display: inline-block;
 
           .field-item {
-            font-family: @pxl-text-font;
-            font-size: @resp-font-size-max;
+            #pxl-mixins.text();
+            line-height: 1.2;
           }
         }
       }

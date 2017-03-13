@@ -1572,39 +1572,39 @@ pre code {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 @media (min-width: 48em) {
   .container {
-    width: 760px;
+    width: 744px;
   }
 }
 @media (min-width: 64em) {
   .container {
-    width: 980px;
+    width: 964px;
   }
 }
 @media (min-width: 80em) {
   .container {
-    width: 1180px;
+    width: 1164px;
   }
 }
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .row {
-  margin-left: -20px;
-  margin-right: -20px;
+  margin-left: -12px;
+  margin-right: -12px;
 }
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left;
@@ -2963,8 +2963,8 @@ select[multiple].input-lg {
   min-height: 32px;
 }
 .form-horizontal .form-group {
-  margin-left: -20px;
-  margin-right: -20px;
+  margin-left: -12px;
+  margin-right: -12px;
 }
 @media (min-width: 48em) {
   .form-horizontal .control-label {
@@ -2974,7 +2974,7 @@ select[multiple].input-lg {
   }
 }
 .form-horizontal .has-feedback .form-control-feedback {
-  right: 20px;
+  right: 12px;
 }
 @media (min-width: 48em) {
   .form-horizontal .form-group-lg .control-label {
@@ -4168,8 +4168,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-collapse {
   overflow-x: visible;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 12px;
+  padding-left: 12px;
   border-top: 1px solid transparent;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   -webkit-overflow-scrolling: touch;
@@ -4213,8 +4213,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .container-fluid > .navbar-header,
 .container > .navbar-collapse,
 .container-fluid > .navbar-collapse {
-  margin-right: -20px;
-  margin-left: -20px;
+  margin-right: -12px;
+  margin-left: -12px;
 }
 @media (min-width: 0) {
   .container > .navbar-header,
@@ -4258,7 +4258,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  padding: 12.5px 20px;
+  padding: 12.5px 12px;
   font-size: 23px;
   line-height: 25px;
   height: 50px;
@@ -4273,13 +4273,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 0) {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
-    margin-left: -20px;
+    margin-left: -12px;
   }
 }
 .navbar-toggle {
   position: relative;
   float: right;
-  margin-right: 20px;
+  margin-right: 12px;
   padding: 9px 10px;
   margin-top: 8px;
   margin-bottom: 8px;
@@ -4306,7 +4306,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-nav {
-  margin: 6.25px -20px;
+  margin: 6.25px -12px;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
@@ -4349,9 +4349,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-form {
-  margin-left: -20px;
-  margin-right: -20px;
-  padding: 10px 20px;
+  margin-left: -12px;
+  margin-right: -12px;
+  padding: 10px 12px;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
@@ -4460,8 +4460,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 0) {
   .navbar-text {
     float: left;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
   }
 }
 @media (min-width: 0) {
@@ -4472,7 +4472,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-right {
     float: right !important;
     float: right;
-    margin-right: -20px;
+    margin-right: -12px;
   }
   .navbar-right ~ .navbar-right {
     margin-right: 0;
@@ -4963,8 +4963,8 @@ a.badge:focus {
 .container .jumbotron,
 .container-fluid .jumbotron {
   border-radius: 6px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .jumbotron .container {
   max-width: 100%;
@@ -7113,7 +7113,7 @@ ul li.leaf {
   .form-type-password-confirm .password-help {
     border-left: 1px solid #ddd;
     left: 50%;
-    margin-left: 20px;
+    margin-left: 12px;
     position: absolute;
   }
 }
@@ -10377,6 +10377,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
  * --------------------------------------------------*/
 .node.node-page.view-mode-full > .row > div.col-sm-12 > .field-name-title h2,
 .node.node-page.view-mode-default > .row > div.col-sm-12 > .field-name-title h2 {
+  margin: 0 auto 0.5em;
   font-family: 'AvenirNextUltraLight';
   font-size: 24px;
   letter-spacing: normal;
@@ -10803,7 +10804,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   display: block;
   overflow: hidden;
   margin: 20px auto;
-  padding: 20px;
+  padding: 12px;
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -10842,6 +10843,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 }
 .node.node-instagram.view-mode-default > .row > div.col-sm-6 > .field-name-title h2,
 .node.node-instagram.view-mode-full > .row > div.col-sm-6 > .field-name-title h2 {
+  margin: 0 auto 0.5em;
   font-family: 'AvenirNextUltraLight';
   font-size: 24px;
   letter-spacing: normal;
@@ -11320,7 +11322,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   display: block;
   overflow: hidden;
   margin: 20px auto;
-  padding: 20px;
+  padding: 12px;
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -11342,6 +11344,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 }
 .node.node-note.view-mode-default > .row > div.col-sm-6 > .field-name-title h2,
 .node.node-note.view-mode-full > .row > div.col-sm-6 > .field-name-title h2 {
+  margin: 0 auto 0.5em;
   font-family: 'AvenirNextUltraLight';
   font-size: 24px;
   letter-spacing: normal;
@@ -11820,7 +11823,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   display: block;
   overflow: hidden;
   margin: 20px auto;
-  padding: 20px;
+  padding: 12px;
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -11872,7 +11875,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 }
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-title h2,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-title h2 {
-  margin: 0 auto 30px;
+  margin: 0 auto 0.5em;
   font-family: 'AvenirNextUltraLight';
   font-size: 24px;
   letter-spacing: normal;
@@ -12322,7 +12325,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   display: block;
   overflow: hidden;
   margin: 20px auto;
-  padding: 20px;
+  padding: 12px;
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -12358,19 +12361,17 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 /*
  *  Node album component
  * --------------------------------------------------*/
-.node.node-album.view-mode-teaser {
-  margin: 0 10px 30px;
-}
 .node.node-album.view-mode-teaser > .row > div.col-sm-4 {
   display: block;
-  padding-top: 15px;
+  position: relative;
   width: 100%;
+  margin: 0 0 30px;
 }
 @media screen and (min-width: 30em) {
   .node.node-album.view-mode-teaser > .row > div.col-sm-4 {
     display: inline-block;
     vertical-align: top;
-    margin: 0 -2px;
+    margin: 0 -2px 30px;
     width: 33.333333%;
   }
 }
@@ -12383,429 +12384,227 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   width: 100%;
   height: auto;
 }
+.node.node-album.view-mode-teaser > .row > div.col-sm-4 > .video-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 30%;
+  height: auto;
+}
+@media screen and (min-width: 30em) {
+  .node.node-album.view-mode-teaser > .row > div.col-sm-4 > .video-play-button {
+    width: 50%;
+  }
+}
 .node.node-album.view-mode-teaser > .row > div.col-sm-8 {
   display: block;
-  padding-top: 15px;
   width: 100%;
+  margin: 0 0 30px;
 }
 @media screen and (min-width: 30em) {
   .node.node-album.view-mode-teaser > .row > div.col-sm-8 {
     display: inline-block;
     vertical-align: top;
-    margin: 0 -2px;
+    margin: 0 -2px 30px;
     width: 66.666666%;
   }
 }
 .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-title h2 {
   margin: 0;
   font-family: 'AvenirNextRegular';
-  font-weight: 700;
-  font-size: 15px;
+  font-size: 18px;
+  line-height: 1.2em;
+  text-align: left;
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: 0.02em;
-  line-height: 1.2;
-  color: #fff;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 37.56521739130435em) {
   .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-title h2 {
-    font-size: 2.34375vw;
+    font-size: 2.99479167vw;
   }
 }
 @media screen and (min-width: 48em) {
   .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-title h2 {
-    font-size: 18px;
+    font-size: 23px;
   }
 }
 @media screen and (min-width: 64em) {
   .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-title h2 {
-    font-size: 18px;
+    font-size: 23px;
   }
 }
 .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-subtitle .field-item {
+  margin: 0 0 8px;
   font-family: 'AvenirNextRegular';
-  font-size: 18px;
-  font-style: italic;
-  letter-spacing: 0.02em;
-  line-height: 1.2;
+  font-size: 15px;
+  letter-spacing: normal;
+  line-height: 23px;
+  text-align: left;
   color: #fff;
+  font-style: italic;
+}
+@media screen and (min-width: 40em) {
+  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-subtitle .field-item {
+    font-size: 2.34375vw;
+  }
+}
+@media screen and (min-width: 48em) {
+  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-subtitle .field-item {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 64em) {
+  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-subtitle .field-item {
+    font-size: 18px;
+  }
 }
 .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-artist {
-  margin: 8px 0 0;
+  margin: 0 0 8px;
+}
+.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-artist .field-item {
+  font-family: 'AvenirNextRegular';
+  font-size: 15px;
+  letter-spacing: normal;
+  line-height: 23px;
+  text-align: left;
+  color: #fff;
   line-height: 1.2;
 }
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-artist .field-label {
-  display: none;
-  vertical-align: top;
-  font-family: 'AvenirNextRegular';
-  font-weight: 700;
-  font-size: 18px;
+@media screen and (min-width: 40em) {
+  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-artist .field-item {
+    font-size: 2.34375vw;
+  }
 }
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-artist .field-items {
-  display: inline-block;
-  vertical-align: top;
+@media screen and (min-width: 48em) {
+  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-artist .field-item {
+    font-size: 18px;
+  }
 }
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-artist .field-items .field-item {
-  font-family: 'AvenirNextRegular';
-  font-size: 18px;
-  white-space: normal;
-}
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-publisher {
-  line-height: 1.2;
+@media screen and (min-width: 64em) {
+  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-artist .field-item {
+    font-size: 18px;
+  }
 }
 .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-publisher .field-label {
   display: inline-block;
   font-family: 'AvenirNextRegular';
-  font-weight: 700;
-  font-size: 18px;
+  font-size: 15px;
+  letter-spacing: normal;
+  line-height: 23px;
+  text-align: left;
+  color: #fff;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+}
+@media screen and (min-width: 40em) {
+  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-publisher .field-label {
+    font-size: 2.34375vw;
+  }
+}
+@media screen and (min-width: 48em) {
+  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-publisher .field-label {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 64em) {
+  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-publisher .field-label {
+    font-size: 18px;
+  }
 }
 .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-publisher .field-items {
   display: inline-block;
 }
 .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-publisher .field-items .field-item {
   font-family: 'AvenirNextRegular';
-  font-size: 18px;
-}
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-published {
+  font-size: 15px;
+  letter-spacing: normal;
+  line-height: 23px;
+  text-align: left;
+  color: #fff;
   line-height: 1.2;
+}
+@media screen and (min-width: 40em) {
+  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-publisher .field-items .field-item {
+    font-size: 2.34375vw;
+  }
+}
+@media screen and (min-width: 48em) {
+  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-publisher .field-items .field-item {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 64em) {
+  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-publisher .field-items .field-item {
+    font-size: 18px;
+  }
 }
 .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-published .field-label {
   display: inline-block;
   font-family: 'AvenirNextRegular';
-  font-weight: 700;
-  font-size: 18px;
+  font-size: 15px;
+  letter-spacing: normal;
+  line-height: 23px;
+  text-align: left;
+  color: #fff;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+}
+@media screen and (min-width: 40em) {
+  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-published .field-label {
+    font-size: 2.34375vw;
+  }
+}
+@media screen and (min-width: 48em) {
+  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-published .field-label {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 64em) {
+  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-published .field-label {
+    font-size: 18px;
+  }
 }
 .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-published .field-items {
   display: inline-block;
 }
 .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-published .field-items .field-item {
   font-family: 'AvenirNextRegular';
-  font-size: 18px;
-}
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body {
-  margin: 0 0 20px;
-  word-break: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  -o-hyphens: auto;
-  hyphens: auto;
-}
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body h1,
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body h2,
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body h3,
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body .pxl-title {
-  margin: 10px auto 20px;
-  font-family: 'AvenirNextUltraLight';
-  font-size: 24px;
-  letter-spacing: normal;
-  line-height: 1.2em;
-  text-align: left;
-  color: #fff;
-}
-@media screen and (min-width: 21.735849056603772em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body h1,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body h2,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body h3,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body .pxl-title {
-    font-size: 6.90104167vw;
-  }
-}
-@media screen and (min-width: 48em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body h1,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body h2,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body h3,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body .pxl-title {
-    font-size: 53px;
-  }
-}
-@media screen and (min-width: 64em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body h1,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body h2,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body h3,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body .pxl-title {
-    font-size: 53px;
-  }
-}
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body h4,
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body h5,
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body h6,
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body .pxl-subtitle {
-  margin: 10px auto;
-  font-family: 'AvenirNextRegular';
-  font-size: 18px;
-  letter-spacing: 0.02em;
-  line-height: 1.2em;
-  text-align: left;
-  color: #fff;
-}
-@media screen and (min-width: 37.56521739130435em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body h4,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body h5,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body h6,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body .pxl-subtitle {
-    font-size: 2.99479167vw;
-  }
-}
-@media screen and (min-width: 48em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body h4,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body h5,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body h6,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body .pxl-subtitle {
-    font-size: 23px;
-  }
-}
-@media screen and (min-width: 64em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body h4,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body h5,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body h6,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body .pxl-subtitle {
-    font-size: 23px;
-  }
-}
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body p {
-  margin: 0 0 20px;
-  font-family: 'AvenirNextRegular';
   font-size: 15px;
   letter-spacing: normal;
   line-height: 23px;
   text-align: left;
   color: #fff;
+  line-height: 1.2;
 }
 @media screen and (min-width: 40em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body p {
+  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-published .field-items .field-item {
     font-size: 2.34375vw;
   }
 }
 @media screen and (min-width: 48em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body p {
+  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-published .field-items .field-item {
     font-size: 18px;
   }
 }
 @media screen and (min-width: 64em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body p {
+  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-published .field-items .field-item {
     font-size: 18px;
   }
 }
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body .pxl-glow {
-  font-family: 'AvenirNextUltraLight';
-  font-size: 50px;
-  letter-spacing: 0.2em;
-  line-height: 1;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
-  text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
+.node.node-album.view-mode-full > .row > div.col-sm-6,
+.node.node-album.view-mode-default > .row > div.col-sm-6 {
+  margin: 0 0 30px;
 }
-@media screen and (min-width: 24em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body .pxl-glow {
-    font-size: 13.02083333vw;
-  }
-}
-@media screen and (min-width: 48em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body .pxl-glow {
-    font-size: 100px;
-  }
-}
-@media screen and (min-width: 64em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body .pxl-glow {
-    font-size: 100px;
-  }
-}
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body .pxl-quote {
-  font-family: 'AvenirNextUltraLight';
-  font-size: 24px;
-  letter-spacing: normal;
-  line-height: 1.2em;
-  text-align: left;
-  color: #fff;
-  text-align: center;
-}
-@media screen and (min-width: 21.735849056603772em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body .pxl-quote {
-    font-size: 6.90104167vw;
-  }
-}
-@media screen and (min-width: 48em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body .pxl-quote {
-    font-size: 53px;
-  }
-}
-@media screen and (min-width: 64em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body .pxl-quote {
-    font-size: 53px;
-  }
-}
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body a {
-  font-family: 'AvenirNextRegular';
-  font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
-  text-align: left;
-  color: #fff;
-}
-@media screen and (min-width: 40em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body a {
-    font-size: 2.34375vw;
-  }
-}
-@media screen and (min-width: 48em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body a {
-    font-size: 18px;
-  }
-}
-@media screen and (min-width: 64em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body a {
-    font-size: 18px;
-  }
-}
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body a:hover,
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body a:focus {
-  color: #fff;
-  text-decoration: underline;
-  background: none;
-}
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body pre,
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body address,
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body i,
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body em {
-  font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
-  text-align: left;
-  color: #fff;
-  font-family: 'AvenirNextRegular';
-}
-@media screen and (min-width: 40em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body pre,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body address,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body i,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body em {
-    font-size: 2.34375vw;
-  }
-}
-@media screen and (min-width: 48em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body pre,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body address,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body i,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body em {
-    font-size: 18px;
-  }
-}
-@media screen and (min-width: 64em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body pre,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body address,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body i,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body em {
-    font-size: 18px;
-  }
-}
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body strong,
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body b {
-  font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
-  text-align: left;
-  color: #fff;
-  font-family: 'AvenirNextRegular';
-}
-@media screen and (min-width: 40em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body strong,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body b {
-    font-size: 2.34375vw;
-  }
-}
-@media screen and (min-width: 48em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body strong,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body b {
-    font-size: 18px;
-  }
-}
-@media screen and (min-width: 64em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body strong,
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body b {
-    font-size: 18px;
-  }
-}
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body u {
-  font-family: 'AvenirNextRegular';
-  font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
-  text-align: left;
-  color: #fff;
-}
-@media screen and (min-width: 40em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body u {
-    font-size: 2.34375vw;
-  }
-}
-@media screen and (min-width: 48em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body u {
-    font-size: 18px;
-  }
-}
-@media screen and (min-width: 64em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body u {
-    font-size: 18px;
-  }
-}
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body u:hover,
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body u:focus {
-  color: #d9d9d9;
-}
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body mark {
-  font-family: 'AvenirNextRegular';
-  font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
-  text-align: left;
-  color: #fff;
-  background-color: #ff0;
-}
-@media screen and (min-width: 40em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body mark {
-    font-size: 2.34375vw;
-  }
-}
-@media screen and (min-width: 48em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body mark {
-    font-size: 18px;
-  }
-}
-@media screen and (min-width: 64em) {
-  .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body mark {
-    font-size: 18px;
-  }
-}
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body hr {
-  border: 0;
-  border-bottom: 2px solid #fff;
-  background: none;
-}
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body img {
-  display: block;
-  overflow: hidden;
-  margin: 20px auto;
-  padding: 0;
-  max-width: 100%;
-  height: auto;
-}
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body embed,
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body video,
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body audio,
-.node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-body iframe {
-  display: block;
-  overflow: hidden;
-  margin: 20px auto;
-  padding: 20px;
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  min-height: 350px;
-}
-.node.node-album.view-mode-full,
-.node.node-album.view-mode-default {
-  margin: 0;
+.node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-image .field-item,
+.node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-image .field-item {
+  padding: 2px;
+  background: #000 url(../images/rainbow_square.png) no-repeat top left / cover;
 }
 .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-image .field-item img,
 .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-image .field-item img {
@@ -12819,63 +12618,125 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 }
 .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-title h2,
 .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-title h2 {
-  margin: 0 0 10px;
+  margin: 0 auto 10px;
   font-family: 'AvenirNextRegular';
-  font-size: 15px;
+  font-size: 18px;
+  line-height: 1.2em;
+  text-align: left;
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: 0.02em;
-  line-height: 1.2;
-  color: #fff;
 }
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 37.56521739130435em) {
   .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-title h2,
   .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-title h2 {
-    font-size: 3.125vw;
+    font-size: 2.99479167vw;
   }
 }
 @media screen and (min-width: 48em) {
   .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-title h2,
   .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-title h2 {
-    font-size: 24px;
+    font-size: 23px;
   }
 }
 @media screen and (min-width: 64em) {
   .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-title h2,
   .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-title h2 {
-    font-size: 53px;
+    font-size: 23px;
   }
 }
 .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-subtitle .field-item,
 .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-subtitle .field-item {
-  margin: 10px 0;
+  margin: 0 0 8px;
   font-family: 'AvenirNextRegular';
-  font-size: 18px;
-  letter-spacing: 0.02em;
-  line-height: 1;
+  font-size: 15px;
+  letter-spacing: normal;
+  line-height: 23px;
+  text-align: left;
   color: #fff;
+  font-style: italic;
+  letter-spacing: 0.02em;
 }
-.node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-artist .field-label,
-.node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-artist .field-label {
-  display: inline-block;
+@media screen and (min-width: 40em) {
+  .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-subtitle .field-item,
+  .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-subtitle .field-item {
+    font-size: 2.34375vw;
+  }
+}
+@media screen and (min-width: 48em) {
+  .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-subtitle .field-item,
+  .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-subtitle .field-item {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 64em) {
+  .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-subtitle .field-item,
+  .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-subtitle .field-item {
+    font-size: 18px;
+  }
+}
+.node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-artist,
+.node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-artist {
+  margin: 0 0 8px;
+}
+.node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-artist .field-item,
+.node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-artist .field-item {
   font-family: 'AvenirNextRegular';
-  font-weight: 700;
-  font-size: 18px;
+  font-size: 15px;
+  letter-spacing: normal;
+  line-height: 23px;
+  text-align: left;
+  color: #fff;
+  line-height: 1.2;
 }
-.node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-artist .field-items,
-.node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-artist .field-items {
-  display: inline-block;
+@media screen and (min-width: 40em) {
+  .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-artist .field-item,
+  .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-artist .field-item {
+    font-size: 2.34375vw;
+  }
 }
-.node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-artist .field-items .field-item,
-.node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-artist .field-items .field-item {
-  font-family: 'AvenirNextRegular';
-  font-size: 18px;
+@media screen and (min-width: 48em) {
+  .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-artist .field-item,
+  .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-artist .field-item {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 64em) {
+  .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-artist .field-item,
+  .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-artist .field-item {
+    font-size: 18px;
+  }
 }
 .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-publisher .field-label,
 .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-publisher .field-label {
   display: inline-block;
   font-family: 'AvenirNextRegular';
-  font-weight: 700;
-  font-size: 18px;
+  font-size: 15px;
+  letter-spacing: normal;
+  line-height: 23px;
+  text-align: left;
+  color: #fff;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+}
+@media screen and (min-width: 40em) {
+  .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-publisher .field-label,
+  .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-publisher .field-label {
+    font-size: 2.34375vw;
+  }
+}
+@media screen and (min-width: 48em) {
+  .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-publisher .field-label,
+  .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-publisher .field-label {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 64em) {
+  .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-publisher .field-label,
+  .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-publisher .field-label {
+    font-size: 18px;
+  }
 }
 .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-publisher .field-items,
 .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-publisher .field-items {
@@ -12884,14 +12745,61 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-publisher .field-items .field-item,
 .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-publisher .field-items .field-item {
   font-family: 'AvenirNextRegular';
-  font-size: 18px;
+  font-size: 15px;
+  letter-spacing: normal;
+  line-height: 23px;
+  text-align: left;
+  color: #fff;
+  line-height: 1.2;
+}
+@media screen and (min-width: 40em) {
+  .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-publisher .field-items .field-item,
+  .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-publisher .field-items .field-item {
+    font-size: 2.34375vw;
+  }
+}
+@media screen and (min-width: 48em) {
+  .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-publisher .field-items .field-item,
+  .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-publisher .field-items .field-item {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 64em) {
+  .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-publisher .field-items .field-item,
+  .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-publisher .field-items .field-item {
+    font-size: 18px;
+  }
 }
 .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-published .field-label,
 .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-published .field-label {
   display: inline-block;
   font-family: 'AvenirNextRegular';
-  font-weight: 700;
-  font-size: 18px;
+  font-size: 15px;
+  letter-spacing: normal;
+  line-height: 23px;
+  text-align: left;
+  color: #fff;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+}
+@media screen and (min-width: 40em) {
+  .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-published .field-label,
+  .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-published .field-label {
+    font-size: 2.34375vw;
+  }
+}
+@media screen and (min-width: 48em) {
+  .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-published .field-label,
+  .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-published .field-label {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 64em) {
+  .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-published .field-label,
+  .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-published .field-label {
+    font-size: 18px;
+  }
 }
 .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-published .field-items,
 .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-published .field-items {
@@ -12900,7 +12808,30 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-published .field-items .field-item,
 .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-published .field-items .field-item {
   font-family: 'AvenirNextRegular';
-  font-size: 18px;
+  font-size: 15px;
+  letter-spacing: normal;
+  line-height: 23px;
+  text-align: left;
+  color: #fff;
+  line-height: 1.2;
+}
+@media screen and (min-width: 40em) {
+  .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-published .field-items .field-item,
+  .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-published .field-items .field-item {
+    font-size: 2.34375vw;
+  }
+}
+@media screen and (min-width: 48em) {
+  .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-published .field-items .field-item,
+  .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-published .field-items .field-item {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 64em) {
+  .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-published .field-items .field-item,
+  .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-published .field-items .field-item {
+    font-size: 18px;
+  }
 }
 .node.node-album.view-mode-full > .row > div.col-sm-12 > .field-name-body,
 .node.node-album.view-mode-default > .row > div.col-sm-12 > .field-name-body {
@@ -13309,7 +13240,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   display: block;
   overflow: hidden;
   margin: 20px auto;
-  padding: 20px;
+  padding: 12px;
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -13325,6 +13256,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 }
 .node.node-banner.view-mode-full > .row > div.col-sm-12 > .field-name-title h2,
 .node.node-banner.view-mode-default > .row > div.col-sm-12 > .field-name-title h2 {
+  margin: 0 auto 0.5em;
   font-family: 'AvenirNextUltraLight';
   font-size: 24px;
   letter-spacing: normal;
@@ -13779,7 +13711,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   display: block;
   overflow: hidden;
   margin: 20px auto;
-  padding: 20px;
+  padding: 12px;
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -14232,7 +14164,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   display: block;
   overflow: hidden;
   margin: 20px auto;
-  padding: 20px;
+  padding: 12px;
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -14951,7 +14883,7 @@ form#user-login {
   display: block;
   overflow: hidden;
   margin: 20px auto;
-  padding: 20px;
+  padding: 12px;
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -15349,6 +15281,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
   width: 85%;
 }
 .entity-paragraphs-item.paragraphs-item-text-paragraph .row .col-sm-12 .field-name-field-title .field-item {
+  margin: 0 auto 0.5em;
   font-family: 'AvenirNextUltraLight';
   font-size: 24px;
   letter-spacing: normal;
@@ -15686,7 +15619,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
   display: block;
   overflow: hidden;
   margin: 20px auto;
-  padding: 20px;
+  padding: 12px;
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -15735,6 +15668,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
  *  Block paragraph component
  * --------------------------------------------------*/
 .entity-paragraphs-item.paragraphs-item-block-paragraph .row .col-sm-12 .field-name-field-title .field-item {
+  margin: 0 auto 0.5em;
   font-family: 'AvenirNextUltraLight';
   font-size: 24px;
   letter-spacing: normal;
@@ -15760,8 +15694,15 @@ form#user-profile-form div .form-actions .form-submit .icon {
 /*
  *  Block paragraph component
  * --------------------------------------------------*/
+@media screen and (min-width: 48em) {
+  .odd .entity-paragraphs-item.paragraphs-item-text-block-paragraph .row .col-sm-6,
+  .odd .entity-paragraphs-item.paragraphs-item-block-text-paragraph .row .col-sm-6 {
+    float: right;
+  }
+}
 .entity-paragraphs-item.paragraphs-item-text-block-paragraph .row .col-sm-6 .field-name-field-title .field-item,
 .entity-paragraphs-item.paragraphs-item-block-text-paragraph .row .col-sm-6 .field-name-field-title .field-item {
+  margin: 0 auto 0.5em;
   font-family: 'AvenirNextUltraLight';
   font-size: 24px;
   letter-spacing: normal;
@@ -16193,7 +16134,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
   display: block;
   overflow: hidden;
   margin: 20px auto;
-  padding: 20px;
+  padding: 12px;
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -16233,6 +16174,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
  *  Image paragraph component
  * --------------------------------------------------*/
 .entity-paragraphs-item.paragraphs-item-image-paragraph .row .col-sm-12 .field-name-field-title .field-item {
+  margin: 0 auto 0.5em;
   font-family: 'AvenirNextUltraLight';
   font-size: 24px;
   letter-spacing: normal;
@@ -16263,6 +16205,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
  *  BS carousel paragraph component
  * --------------------------------------------------*/
 .entity-paragraphs-item.paragraphs-item-bs-carousel-paragraph .row .col-sm-12 .field-name-field-title .field-item {
+  margin: 0 auto 0.5em;
   font-family: 'AvenirNextUltraLight';
   font-size: 24px;
   letter-spacing: normal;
@@ -16428,6 +16371,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
   width: 85%;
 }
 .entity-paragraphs-item.paragraphs-item-quote .row .col-sm-12 .field-name-field-title .field-item {
+  margin: 0 auto 0.5em;
   font-family: 'AvenirNextUltraLight';
   font-size: 24px;
   letter-spacing: normal;
@@ -16757,7 +16701,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
   display: block;
   overflow: hidden;
   margin: 20px auto;
-  padding: 20px;
+  padding: 12px;
   width: 100%;
   max-width: 100%;
   height: auto;
@@ -16947,7 +16891,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
   display: none;
 }
 .view.view-proximity .view-content > .pe-container .modal .modal-dialog .modal-content .modal-body {
-  padding: 20px 20px 30px;
+  padding: 20px 12px 30px;
 }
 @media screen and (min-width: 30em) {
   .view.view-proximity .view-content > .pe-container .modal .modal-dialog .modal-content .modal-body {
@@ -17319,7 +17263,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
   display: none;
 }
 .view.view-notes .view-content > .pe-container .modal .modal-dialog .modal-content .modal-body {
-  padding: 20px 20px 30px;
+  padding: 20px 12px 30px;
 }
 @media screen and (min-width: 30em) {
   .view.view-notes .view-content > .pe-container .modal .modal-dialog .modal-content .modal-body {
@@ -17380,15 +17324,15 @@ form#user-profile-form div .form-actions .form-submit .icon {
 }
 .view.view-artists .view-content > .pe-container .grid-sizer,
 .view.view-artists .view-content > .pe-container .pe-item {
-  width: 31.87878767%;
+  width: 30.244533%;
 }
 .view.view-artists .view-content > .pe-container .gutter-sizer {
-  width: 2.181818%;
+  width: 4.6332%;
 }
 .view.view-artists .view-content > .pe-container .pe-item {
   display: inline-block;
   overflow: visible;
-  margin: 0 0 2.181818% !important;
+  margin: 0 0 4.6332% !important;
   opacity: 1.0;
   -webkit-transition: opacity 1s;
   -o-transition: opacity 1s;
@@ -17533,7 +17477,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
   display: none;
 }
 .view.view-artists .view-content > .pe-container .modal .modal-dialog .modal-content .modal-body {
-  padding: 20px 20px 30px;
+  padding: 20px 12px 30px;
 }
 @media screen and (min-width: 30em) {
   .view.view-artists .view-content > .pe-container .modal .modal-dialog .modal-content .modal-body {
@@ -17645,7 +17589,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
   .view.view-music-albums .view-content > .pe-container .grid-sizer,
   .view.view-music-albums .view-content > .pe-container .pe-item {
     width: 49.0625%;
-    height: 250px;
+    height: 240px;
   }
   .view.view-music-albums .view-content > .pe-container .gutter-sizer {
     width: 1.875%;
@@ -17800,7 +17744,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
   display: none;
 }
 .view.view-music-albums .view-content > .pe-container .modal .modal-dialog .modal-content .modal-body {
-  padding: 20px 20px 30px;
+  padding: 20px 12px 30px;
 }
 @media screen and (min-width: 30em) {
   .view.view-music-albums .view-content > .pe-container .modal .modal-dialog .modal-content .modal-body {
@@ -18771,7 +18715,7 @@ header#navbar {
 }
 header#navbar .container,
 header#navbar .container-fluid {
-  max-width: 1100px;
+  max-width: 1084px;
   padding: 25px 20px;
 }
 header#navbar .container .navbar-header,
@@ -18854,7 +18798,7 @@ header#navbar .container-fluid .navbar-header a.navbar-brand {
   display: inline-block;
   vertical-align: middle;
   float: none;
-  margin-left: 20px;
+  margin-left: 12px;
   padding: 0;
   font-family: 'AvenirNextRegular';
   font-size: 46px;
@@ -18939,7 +18883,8 @@ body .main-container {
 }
 body .main-container .container,
 body .main-container .container-fluid {
-  max-width: 1100px;
+  max-width: 1084px;
+  padding: 0 20px;
 }
 body .main-container .container #page-header a.logo,
 body .main-container .container-fluid #page-header a.logo {
@@ -18951,7 +18896,7 @@ body .main-container .container-fluid #page-header a.logo {
 body .main-container .container #page-header a.logo img,
 body .main-container .container-fluid #page-header a.logo img {
   display: inline-block;
-  max-height: 60px;
+  max-height: 20px;
   width: auto;
   max-width: 90%;
 }
@@ -19071,6 +19016,14 @@ body .main-container .fading.fading-bottom {
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #fff 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffffff', GradientType=0);
+}
+body.front .main-container .container #page-header a.logo,
+body.front .main-container .container-fluid #page-header a.logo {
+  display: block;
+}
+body.front .main-container .container #page-header a.logo img,
+body.front .main-container .container-fluid #page-header a.logo img {
+  max-height: 60px;
 }
 body footer.footer {
   position: absolute;

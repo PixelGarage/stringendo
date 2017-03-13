@@ -16,8 +16,16 @@
 .entity-paragraphs-item.paragraphs-item-block-text-paragraph {
   .row {
     .col-sm-6 {
+      @media @tablet {
+        .odd & {
+          // switch text-block order for odd paragraph items
+          float:right;
+        }
+      }
+
       .field-name-field-title {
         .field-item {
+          margin: 0 auto @node-title-margin-bottom;
           #pxl-mixins.title();
         }
       }

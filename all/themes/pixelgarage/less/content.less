@@ -60,6 +60,8 @@ body {
 
     .container, .container-fluid {
       max-width: @container-max-width;
+      padding: 0 @grid-gutter-width-large/2;
+
       //
       // Page header
       #page-header {
@@ -71,7 +73,7 @@ body {
 
           img {
             display: inline-block;
-            max-height: 60px;
+            max-height: 20px;
             width: auto;
             max-width: 90%;
           }
@@ -162,6 +164,24 @@ body {
     }
   } // main-container
 
+  //
+  // logo visible only on front page
+  &.front {
+    .main-container {
+      .container, .container-fluid {
+        #page-header {
+          a.logo {
+            display: block;
+
+            img {
+              max-height: 60px;
+            }
+          }
+        }
+      }
+    }
+  }
+
   footer.footer {
     position: absolute;
     bottom: 0;
@@ -173,7 +193,7 @@ body {
     border-top: 0.5px solid @pxl-color-border;
 
     .container, .container-fluid {
-      padding: 15px (@grid-gutter-width / 2);
+      padding: 15px (@grid-gutter-width-large / 2);
 
       .region-footer {
         ul.nav {
@@ -216,7 +236,7 @@ body {
       height: @pxl-footer-height-large;
 
       .container, .container-fluid {
-        padding: 25px (@grid-gutter-width / 2);
+        padding: 25px (@grid-gutter-width-large / 2);
       }
     }
   }
