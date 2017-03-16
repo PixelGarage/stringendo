@@ -12,12 +12,15 @@
 
 // General settings
 // -------------------------
+.node.node-artist.view-mode-bluegreen,
+.node.node-artist.view-mode-bluered,
+.node.node-artist.view-mode-blueyellow,
+.node.node-artist.view-mode-red,
+.node.node-artist.view-mode-redgreen,
+.node.node-artist.view-mode-orange,
 .node.node-artist.view-mode-teaser {
-
   >.row {
     >div.col-sm-12 {
-      width: 100%;
-
       >.field-name-field-image {
         .field-item {
           overflow: hidden;
@@ -27,6 +30,7 @@
           img {
             width: 100%;
             height: auto;
+            #pxl-mixins.border-radius(50%);
           }
         }
       }
@@ -42,7 +46,12 @@
     }
   }
 }
-
+.node.node-artist.view-mode-bluegreenfull,
+.node.node-artist.view-mode-blueredfull,
+.node.node-artist.view-mode-blueyellowfull,
+.node.node-artist.view-mode-redfull,
+.node.node-artist.view-mode-redgreenfull,
+.node.node-artist.view-mode-orangefull,
 .node.node-artist.view-mode-default,
 .node.node-artist.view-mode-full {
 
@@ -60,12 +69,13 @@
 
         .field-item {
           overflow: hidden;
-          padding: 2px;
+          padding: 5px;
           #pxl-mixins.border-radius(50%);
 
           img {
             width: 100%;
             height: auto;
+            #pxl-mixins.border-radius(50%);
           }
         }
       }
@@ -85,3 +95,79 @@
     }
   }
 }
+
+//
+// image backgrounds
+.node.node-artist.view-mode-red,
+.node.node-artist.view-mode-redfull {
+  >.row {
+    >div.col-sm-6, >div.col-sm-12 {
+      >.field-name-field-image {
+        .field-item {
+          background: #000 url(../images/kreis_verlauf_1.png) no-repeat top left / cover;
+        }
+      }
+    }
+  }
+}
+.node.node-artist.view-mode-bluegreen,
+.node.node-artist.view-mode-bluegreenfull {
+  >.row {
+    >div.col-sm-6, >div.col-sm-12 {
+      >.field-name-field-image {
+        .field-item {
+          background: #000 url(../images/kreis_verlauf_2.png) no-repeat top left / cover;
+        }
+      }
+    }
+  }
+}
+.node.node-artist.view-mode-orange,
+.node.node-artist.vview-mode-orangefull {
+  >.row {
+    >div.col-sm-6, >div.col-sm-12 {
+      >.field-name-field-image {
+        .field-item {
+          background: #000 url(../images/kreis_verlauf_3.png) no-repeat top left / cover;
+        }
+      }
+    }
+  }
+}
+.node.node-artist.view-mode-redgreen,
+.node.node-artist.view-mode-redgreenfull {
+  >.row {
+    >div.col-sm-6, >div.col-sm-12 {
+      >.field-name-field-image {
+        .field-item {
+          background: #000 url(../images/kreis_verlauf_4.png) no-repeat top left / cover;
+        }
+      }
+    }
+  }
+}
+.node.node-artist.view-mode-bluered,
+.node.node-artist.view-mode-blueredfull {
+  >.row {
+    >div.col-sm-6, >div.col-sm-12 {
+      >.field-name-field-image {
+        .field-item {
+          background: #000 url(../images/kreis_verlauf_5.png) no-repeat top left / cover;
+        }
+      }
+    }
+  }
+}
+.node.node-artist.view-mode-blueyellow,
+.node.node-artist.view-mode-blueyellowfull {
+  >.row {
+    >div.col-sm-6, >div.col-sm-12 {
+      >.field-name-field-image {
+        .field-item {
+          background: #000 url(../images/kreis_verlauf_6.png) no-repeat top left / cover;
+        }
+      }
+    }
+  }
+}
+

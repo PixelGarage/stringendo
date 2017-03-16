@@ -11832,9 +11832,12 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 /*
  *  Node artist component
  * --------------------------------------------------*/
-.node.node-artist.view-mode-teaser > .row > div.col-sm-12 {
-  width: 100%;
-}
+.node.node-artist.view-mode-bluegreen > .row > div.col-sm-12 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-bluered > .row > div.col-sm-12 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-blueyellow > .row > div.col-sm-12 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-red > .row > div.col-sm-12 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-redgreen > .row > div.col-sm-12 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-orange > .row > div.col-sm-12 > .field-name-field-image .field-item,
 .node.node-artist.view-mode-teaser > .row > div.col-sm-12 > .field-name-field-image .field-item {
   overflow: hidden;
   padding: 2px;
@@ -11842,13 +11845,34 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
+.node.node-artist.view-mode-bluegreen > .row > div.col-sm-12 > .field-name-field-image .field-item img,
+.node.node-artist.view-mode-bluered > .row > div.col-sm-12 > .field-name-field-image .field-item img,
+.node.node-artist.view-mode-blueyellow > .row > div.col-sm-12 > .field-name-field-image .field-item img,
+.node.node-artist.view-mode-red > .row > div.col-sm-12 > .field-name-field-image .field-item img,
+.node.node-artist.view-mode-redgreen > .row > div.col-sm-12 > .field-name-field-image .field-item img,
+.node.node-artist.view-mode-orange > .row > div.col-sm-12 > .field-name-field-image .field-item img,
 .node.node-artist.view-mode-teaser > .row > div.col-sm-12 > .field-name-field-image .field-item img {
   width: 100%;
   height: auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
 }
+.node.node-artist.view-mode-bluegreen > .row > div.col-sm-12 > .field-name-field-nickname,
+.node.node-artist.view-mode-bluered > .row > div.col-sm-12 > .field-name-field-nickname,
+.node.node-artist.view-mode-blueyellow > .row > div.col-sm-12 > .field-name-field-nickname,
+.node.node-artist.view-mode-red > .row > div.col-sm-12 > .field-name-field-nickname,
+.node.node-artist.view-mode-redgreen > .row > div.col-sm-12 > .field-name-field-nickname,
+.node.node-artist.view-mode-orange > .row > div.col-sm-12 > .field-name-field-nickname,
 .node.node-artist.view-mode-teaser > .row > div.col-sm-12 > .field-name-field-nickname {
   padding: 0;
 }
+.node.node-artist.view-mode-bluegreen > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
+.node.node-artist.view-mode-bluered > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
+.node.node-artist.view-mode-blueyellow > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
+.node.node-artist.view-mode-red > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
+.node.node-artist.view-mode-redgreen > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
+.node.node-artist.view-mode-orange > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
 .node.node-artist.view-mode-teaser > .row > div.col-sm-12 > .field-name-field-nickname .field-item {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
@@ -11859,20 +11883,44 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   text-align: center;
 }
 @media screen and (min-width: 40em) {
+  .node.node-artist.view-mode-bluegreen > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
+  .node.node-artist.view-mode-bluered > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
+  .node.node-artist.view-mode-blueyellow > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
+  .node.node-artist.view-mode-red > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
+  .node.node-artist.view-mode-redgreen > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
+  .node.node-artist.view-mode-orange > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
   .node.node-artist.view-mode-teaser > .row > div.col-sm-12 > .field-name-field-nickname .field-item {
     font-size: 2.34375vw;
   }
 }
 @media screen and (min-width: 48em) {
+  .node.node-artist.view-mode-bluegreen > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
+  .node.node-artist.view-mode-bluered > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
+  .node.node-artist.view-mode-blueyellow > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
+  .node.node-artist.view-mode-red > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
+  .node.node-artist.view-mode-redgreen > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
+  .node.node-artist.view-mode-orange > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
   .node.node-artist.view-mode-teaser > .row > div.col-sm-12 > .field-name-field-nickname .field-item {
     font-size: 18px;
   }
 }
 @media screen and (min-width: 64em) {
+  .node.node-artist.view-mode-bluegreen > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
+  .node.node-artist.view-mode-bluered > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
+  .node.node-artist.view-mode-blueyellow > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
+  .node.node-artist.view-mode-red > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
+  .node.node-artist.view-mode-redgreen > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
+  .node.node-artist.view-mode-orange > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
   .node.node-artist.view-mode-teaser > .row > div.col-sm-12 > .field-name-field-nickname .field-item {
     font-size: 18px;
   }
 }
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-title h2,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-title h2,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-title h2,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-title h2,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-title h2,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-title h2,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-title h2,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-title h2 {
   margin: 0 auto 0.5em;
@@ -11884,40 +11932,85 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   color: #fff;
 }
 @media screen and (min-width: 21.735849056603772em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-title h2,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-title h2,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-title h2,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-title h2,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-title h2,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-title h2,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-title h2,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-title h2 {
     font-size: 6.90104167vw;
   }
 }
 @media screen and (min-width: 48em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-title h2,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-title h2,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-title h2,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-title h2,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-title h2,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-title h2,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-title h2,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-title h2 {
     font-size: 53px;
   }
 }
 @media screen and (min-width: 64em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-title h2,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-title h2,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-title h2,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-title h2,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-title h2,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-title h2,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-title h2,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-title h2 {
     font-size: 53px;
   }
 }
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-field-image,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-field-image,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-field-image,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-field-image,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-field-image,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-field-image,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-field-image,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-field-image {
   margin: 0 0 20px;
 }
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-field-image .field-item,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-field-image .field-item,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-field-image .field-item {
   overflow: hidden;
-  padding: 2px;
+  padding: 5px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-field-image .field-item img,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-field-image .field-item img,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-field-image .field-item img,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-field-image .field-item img,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-field-image .field-item img,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-field-image .field-item img,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-field-image .field-item img,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-field-image .field-item img {
   width: 100%;
   height: auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
 }
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body {
   margin: 0 0 20px;
@@ -11928,12 +12021,36 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   -o-hyphens: auto;
   hyphens: auto;
 }
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h1,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h1,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body h1,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body h1,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body h1,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body h1,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body h1,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body h1,
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h2,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h2,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body h2,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body h2,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body h2,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body h2,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body h2,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body h2,
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h3,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h3,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body h3,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body h3,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body h3,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body h3,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body h3,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body h3,
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body .pxl-title,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body .pxl-title,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body .pxl-title,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body .pxl-title,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body .pxl-title,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body .pxl-title,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-title,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-title {
   margin: 10px auto 20px;
@@ -11945,47 +12062,143 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   color: #fff;
 }
 @media screen and (min-width: 21.735849056603772em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h1,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h1,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body h1,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body h1,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body h1,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body h1,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body h1,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body h1,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h2,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h2,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body h2,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body h2,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body h2,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body h2,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body h2,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body h2,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h3,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h3,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body h3,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body h3,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body h3,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body h3,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body h3,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body h3,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body .pxl-title,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body .pxl-title,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body .pxl-title,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body .pxl-title,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body .pxl-title,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body .pxl-title,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-title,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-title {
     font-size: 6.90104167vw;
   }
 }
 @media screen and (min-width: 48em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h1,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h1,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body h1,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body h1,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body h1,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body h1,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body h1,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body h1,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h2,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h2,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body h2,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body h2,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body h2,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body h2,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body h2,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body h2,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h3,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h3,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body h3,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body h3,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body h3,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body h3,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body h3,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body h3,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body .pxl-title,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body .pxl-title,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body .pxl-title,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body .pxl-title,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body .pxl-title,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body .pxl-title,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-title,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-title {
     font-size: 53px;
   }
 }
 @media screen and (min-width: 64em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h1,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h1,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body h1,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body h1,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body h1,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body h1,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body h1,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body h1,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h2,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h2,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body h2,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body h2,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body h2,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body h2,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body h2,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body h2,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h3,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h3,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body h3,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body h3,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body h3,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body h3,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body h3,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body h3,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body .pxl-title,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body .pxl-title,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body .pxl-title,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body .pxl-title,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body .pxl-title,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body .pxl-title,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-title,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-title {
     font-size: 53px;
   }
 }
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h4,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h4,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body h4,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body h4,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body h4,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body h4,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body h4,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body h4,
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h5,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h5,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body h5,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body h5,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body h5,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body h5,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body h5,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body h5,
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h6,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h6,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body h6,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body h6,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body h6,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body h6,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body h6,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body h6,
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-subtitle {
   margin: 10px auto;
@@ -11997,41 +12210,119 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   color: #fff;
 }
 @media screen and (min-width: 37.56521739130435em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h4,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h4,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body h4,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body h4,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body h4,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body h4,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body h4,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body h4,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h5,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h5,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body h5,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body h5,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body h5,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body h5,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body h5,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body h5,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h6,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h6,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body h6,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body h6,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body h6,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body h6,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body h6,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body h6,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-subtitle {
     font-size: 2.99479167vw;
   }
 }
 @media screen and (min-width: 48em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h4,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h4,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body h4,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body h4,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body h4,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body h4,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body h4,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body h4,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h5,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h5,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body h5,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body h5,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body h5,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body h5,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body h5,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body h5,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h6,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h6,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body h6,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body h6,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body h6,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body h6,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body h6,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body h6,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-subtitle {
     font-size: 23px;
   }
 }
 @media screen and (min-width: 64em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h4,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h4,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body h4,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body h4,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body h4,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body h4,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body h4,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body h4,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h5,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h5,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body h5,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body h5,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body h5,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body h5,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body h5,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body h5,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h6,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h6,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body h6,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body h6,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body h6,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body h6,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body h6,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body h6,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-subtitle,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-subtitle {
     font-size: 23px;
   }
 }
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body p,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body p,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body p,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body p,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body p,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body p,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body p,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body p {
   margin: 0 0 20px;
@@ -12043,23 +12334,47 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   color: #fff;
 }
 @media screen and (min-width: 40em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body p,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body p,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body p,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body p,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body p,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body p,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body p,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body p {
     font-size: 2.34375vw;
   }
 }
 @media screen and (min-width: 48em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body p,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body p,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body p,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body p,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body p,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body p,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body p,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body p {
     font-size: 18px;
   }
 }
 @media screen and (min-width: 64em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body p,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body p,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body p,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body p,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body p,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body p,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body p,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body p {
     font-size: 18px;
   }
 }
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-glow,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-glow {
   font-family: 'AvenirNextUltraLight';
@@ -12072,23 +12387,47 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
 }
 @media screen and (min-width: 24em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-glow,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-glow {
     font-size: 13.02083333vw;
   }
 }
 @media screen and (min-width: 48em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-glow,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-glow {
     font-size: 100px;
   }
 }
 @media screen and (min-width: 64em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-glow,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-glow {
     font-size: 100px;
   }
 }
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-quote,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-quote {
   font-family: 'AvenirNextUltraLight';
@@ -12100,23 +12439,47 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   text-align: center;
 }
 @media screen and (min-width: 21.735849056603772em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-quote,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-quote {
     font-size: 6.90104167vw;
   }
 }
 @media screen and (min-width: 48em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-quote,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-quote {
     font-size: 53px;
   }
 }
 @media screen and (min-width: 64em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-quote,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-quote {
     font-size: 53px;
   }
 }
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body a,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body a,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body a,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body a,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body a,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body a,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body a,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body a {
   font-family: 'AvenirNextRegular';
@@ -12127,37 +12490,91 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   color: #fff;
 }
 @media screen and (min-width: 40em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body a,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body a,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body a,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body a,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body a,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body a,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body a,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body a {
     font-size: 2.34375vw;
   }
 }
 @media screen and (min-width: 48em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body a,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body a,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body a,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body a,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body a,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body a,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body a,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body a {
     font-size: 18px;
   }
 }
 @media screen and (min-width: 64em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body a,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body a,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body a,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body a,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body a,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body a,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body a,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body a {
     font-size: 18px;
   }
 }
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body a:hover,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body a:hover,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body a:hover,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body a:hover,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body a:hover,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body a:hover,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body a:hover,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body a:hover,
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body a:focus,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body a:focus,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body a:focus,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body a:focus,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body a:focus,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body a:focus,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body a:focus,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body a:focus {
   color: #fff;
   text-decoration: underline;
   background: none;
 }
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body pre,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body pre,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body pre,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body pre,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body pre,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body pre,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body pre,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body pre,
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body address,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body address,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body address,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body address,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body address,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body address,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body address,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body address,
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body i,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body i,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body i,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body i,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body i,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body i,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body i,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body i,
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body em,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body em,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body em,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body em,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body em,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body em,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body em,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body em {
   font-size: 15px;
@@ -12168,43 +12585,127 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   font-family: 'AvenirNextRegular';
 }
 @media screen and (min-width: 40em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body pre,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body pre,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body pre,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body pre,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body pre,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body pre,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body pre,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body pre,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body address,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body address,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body address,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body address,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body address,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body address,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body address,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body address,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body i,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body i,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body i,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body i,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body i,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body i,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body i,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body i,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body em,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body em,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body em,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body em,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body em,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body em,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body em,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body em {
     font-size: 2.34375vw;
   }
 }
 @media screen and (min-width: 48em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body pre,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body pre,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body pre,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body pre,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body pre,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body pre,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body pre,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body pre,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body address,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body address,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body address,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body address,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body address,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body address,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body address,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body address,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body i,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body i,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body i,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body i,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body i,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body i,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body i,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body i,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body em,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body em,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body em,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body em,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body em,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body em,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body em,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body em {
     font-size: 18px;
   }
 }
 @media screen and (min-width: 64em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body pre,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body pre,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body pre,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body pre,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body pre,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body pre,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body pre,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body pre,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body address,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body address,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body address,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body address,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body address,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body address,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body address,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body address,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body i,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body i,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body i,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body i,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body i,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body i,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body i,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body i,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body em,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body em,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body em,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body em,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body em,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body em,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body em,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body em {
     font-size: 18px;
   }
 }
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body strong,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body strong,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body strong,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body strong,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body strong,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body strong,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body strong,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body strong,
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body b,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body b,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body b,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body b,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body b,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body b,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body b,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body b {
   font-size: 15px;
@@ -12215,29 +12716,71 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   font-family: 'AvenirNextRegular';
 }
 @media screen and (min-width: 40em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body strong,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body strong,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body strong,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body strong,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body strong,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body strong,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body strong,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body strong,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body b,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body b,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body b,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body b,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body b,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body b,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body b,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body b {
     font-size: 2.34375vw;
   }
 }
 @media screen and (min-width: 48em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body strong,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body strong,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body strong,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body strong,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body strong,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body strong,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body strong,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body strong,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body b,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body b,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body b,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body b,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body b,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body b,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body b,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body b {
     font-size: 18px;
   }
 }
 @media screen and (min-width: 64em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body strong,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body strong,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body strong,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body strong,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body strong,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body strong,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body strong,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body strong,
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body b,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body b,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body b,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body b,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body b,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body b,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body b,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body b {
     font-size: 18px;
   }
 }
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body u,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body u,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body u,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body u,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body u,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body u,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body u,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body u {
   font-family: 'AvenirNextRegular';
@@ -12248,29 +12791,65 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   color: #fff;
 }
 @media screen and (min-width: 40em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body u,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body u,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body u,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body u,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body u,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body u,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body u,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body u {
     font-size: 2.34375vw;
   }
 }
 @media screen and (min-width: 48em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body u,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body u,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body u,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body u,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body u,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body u,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body u,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body u {
     font-size: 18px;
   }
 }
 @media screen and (min-width: 64em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body u,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body u,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body u,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body u,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body u,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body u,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body u,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body u {
     font-size: 18px;
   }
 }
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body u:hover,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body u:hover,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body u:hover,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body u:hover,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body u:hover,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body u:hover,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body u:hover,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body u:hover,
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body u:focus,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body u:focus,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body u:focus,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body u:focus,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body u:focus,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body u:focus,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body u:focus,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body u:focus {
   color: #d9d9d9;
 }
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body mark,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body mark,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body mark,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body mark,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body mark,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body mark,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body mark,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body mark {
   font-family: 'AvenirNextRegular';
@@ -12282,29 +12861,59 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   background-color: #ff0;
 }
 @media screen and (min-width: 40em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body mark,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body mark,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body mark,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body mark,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body mark,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body mark,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body mark,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body mark {
     font-size: 2.34375vw;
   }
 }
 @media screen and (min-width: 48em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body mark,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body mark,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body mark,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body mark,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body mark,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body mark,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body mark,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body mark {
     font-size: 18px;
   }
 }
 @media screen and (min-width: 64em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body mark,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body mark,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body mark,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body mark,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body mark,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body mark,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body mark,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body mark {
     font-size: 18px;
   }
 }
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body hr,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body hr,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body hr,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body hr,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body hr,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body hr,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body hr,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body hr {
   border: 0;
   border-bottom: 2px solid #fff;
   background: none;
 }
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body img,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body img,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body img,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body img,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body img,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body img,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body img,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body img {
   display: block;
@@ -12314,12 +12923,36 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   max-width: 100%;
   height: auto;
 }
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body embed,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body embed,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body embed,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body embed,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body embed,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body embed,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body embed,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body embed,
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body video,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body video,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body video,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body video,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body video,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body video,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body video,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body video,
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body audio,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body audio,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body audio,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body audio,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body audio,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body audio,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body audio,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body audio,
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body iframe,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body iframe,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body iframe,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-body iframe,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-body iframe,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body iframe,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body iframe,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body iframe {
   display: block;
@@ -12331,6 +12964,12 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   height: auto;
   min-height: 350px;
 }
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-field-certificates .field-item {
   font-family: 'AvenirNextRegular';
@@ -12341,22 +12980,76 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   color: #fff;
 }
 @media screen and (min-width: 40em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-field-certificates .field-item {
     font-size: 2.34375vw;
   }
 }
 @media screen and (min-width: 48em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-field-certificates .field-item {
     font-size: 18px;
   }
 }
 @media screen and (min-width: 64em) {
+  .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
+  .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
+  .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
+  .node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
+  .node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
+  .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-field-certificates .field-item,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-field-certificates .field-item {
     font-size: 18px;
   }
+}
+.node.node-artist.view-mode-red > .row > div.col-sm-6 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-6 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-red > .row > div.col-sm-12 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-redfull > .row > div.col-sm-12 > .field-name-field-image .field-item {
+  background: #000 url(../images/kreis_verlauf_1.png) no-repeat top left / cover;
+}
+.node.node-artist.view-mode-bluegreen > .row > div.col-sm-6 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-bluegreen > .row > div.col-sm-12 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-12 > .field-name-field-image .field-item {
+  background: #000 url(../images/kreis_verlauf_2.png) no-repeat top left / cover;
+}
+.node.node-artist.view-mode-orange > .row > div.col-sm-6 > .field-name-field-image .field-item,
+.node.node-artist.vview-mode-orangefull > .row > div.col-sm-6 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-orange > .row > div.col-sm-12 > .field-name-field-image .field-item,
+.node.node-artist.vview-mode-orangefull > .row > div.col-sm-12 > .field-name-field-image .field-item {
+  background: #000 url(../images/kreis_verlauf_3.png) no-repeat top left / cover;
+}
+.node.node-artist.view-mode-redgreen > .row > div.col-sm-6 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-6 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-redgreen > .row > div.col-sm-12 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-redgreenfull > .row > div.col-sm-12 > .field-name-field-image .field-item {
+  background: #000 url(../images/kreis_verlauf_4.png) no-repeat top left / cover;
+}
+.node.node-artist.view-mode-bluered > .row > div.col-sm-6 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-bluered > .row > div.col-sm-12 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-blueredfull > .row > div.col-sm-12 > .field-name-field-image .field-item {
+  background: #000 url(../images/kreis_verlauf_5.png) no-repeat top left / cover;
+}
+.node.node-artist.view-mode-blueyellow > .row > div.col-sm-6 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-blueyellow > .row > div.col-sm-12 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-12 > .field-name-field-image .field-item {
+  background: #000 url(../images/kreis_verlauf_6.png) no-repeat top left / cover;
 }
 /*
  *  Node album component
@@ -16923,6 +17616,17 @@ form#user-profile-form div .form-actions .form-submit .icon {
 .view.view-proximity .view-content > .pe-container .modal .modal-dialog .modal-content .modal-footer .body-fading {
   display: none;
 }
+.view.view-proximity .view-content > .pe-container #proximity-ajax-loader {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.view.view-proximity .view-content > .pe-container #proximity-ajax-loader img {
+  display: inline-block;
+  max-height: 15px;
+}
 .view.view-proximity ul.pagination {
   display: inline-block;
   margin: 20px 0;
@@ -17295,6 +17999,17 @@ form#user-profile-form div .form-actions .form-submit .icon {
 .view.view-notes .view-content > .pe-container .modal .modal-dialog .modal-content .modal-footer .body-fading {
   display: none;
 }
+.view.view-notes .view-content > .pe-container #proximity-ajax-loader {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.view.view-notes .view-content > .pe-container #proximity-ajax-loader img {
+  display: inline-block;
+  max-height: 15px;
+}
 .view.view-notes .pager.pager--infinite-scroll .pager__item a {
   display: inline-block;
   padding: 8px 20px 10px;
@@ -17340,6 +18055,10 @@ form#user-profile-form div .form-actions .form-submit .icon {
 }
 .view.view-artists .view-content > .pe-container .pe-item.shown {
   opacity: 1.0;
+}
+.view.view-artists .view-content > .pe-container .pe-item .image-circle {
+  width: 100%;
+  height: auto;
 }
 .view.view-artists .view-content > .pe-container .pe-item.pe-item-ajax,
 .view.view-artists .view-content > .pe-container .pe-item.pe-item-no-ajax,
@@ -17508,6 +18227,17 @@ form#user-profile-form div .form-actions .form-submit .icon {
 }
 .view.view-artists .view-content > .pe-container .modal .modal-dialog .modal-content .modal-footer .body-fading {
   display: none;
+}
+.view.view-artists .view-content > .pe-container #proximity-ajax-loader {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.view.view-artists .view-content > .pe-container #proximity-ajax-loader img {
+  display: inline-block;
+  max-height: 15px;
 }
 .view.view-artists .text-center ul.pagination {
   display: inline-block;
@@ -17775,6 +18505,17 @@ form#user-profile-form div .form-actions .form-submit .icon {
 }
 .view.view-music-albums .view-content > .pe-container .modal .modal-dialog .modal-content .modal-footer .body-fading {
   display: none;
+}
+.view.view-music-albums .view-content > .pe-container #proximity-ajax-loader {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.view.view-music-albums .view-content > .pe-container #proximity-ajax-loader img {
+  display: inline-block;
+  max-height: 15px;
 }
 .view.view-music-albums .pager.pager--infinite-scroll .pager__item a {
   display: inline-block;
@@ -18873,6 +19614,8 @@ body {
   background-color: #000;
 }
 body .main-container {
+  position: relative;
+  overflow: hidden;
   padding-bottom: 45px;
   height: 100%;
 }

@@ -111,6 +111,22 @@
 <div class="main-container">
   <div class="fading fading-top"></div>
   <div class="fading fading-bottom"></div>
+
+  <?php if (isset($circles)): ?>
+    <?php foreach ($circles as $circle): ?>
+      <div class="img-circle-color">
+        <?php print $circle; ?>
+      </div>
+    <?php endforeach; ?>
+  <?php endif; ?>
+  <?php if (isset($points)): ?>
+    <?php foreach ($points as $point): ?>
+      <div class="img-point">
+        <?php print $point; ?>
+      </div>
+    <?php endforeach; ?>
+  <?php endif; ?>
+
   <div class="<?php print $container_class; ?>">
     <header role="banner" id="page-header">
       <?php if ($logo): ?>

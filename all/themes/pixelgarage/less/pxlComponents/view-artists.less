@@ -32,6 +32,11 @@
         opacity: 1.0;
       }
 
+      .image-circle {
+        width: 100%;
+        height: auto;
+      }
+
       &.pe-item-ajax, &.pe-item-no-ajax, &.pe-item-linked {
         cursor: pointer;
         // see nodes styling (posts, testimonials, SoMe etc.)
@@ -41,6 +46,20 @@
     // modal dialog
     .modal {
       #pxl-mixins.modal();
+    }
+
+    // ajax loader
+    #proximity-ajax-loader {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+
+      img {
+        display: inline-block;
+        max-height: 15px;
+      }
     }
   }
 }
