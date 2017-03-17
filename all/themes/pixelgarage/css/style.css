@@ -18057,6 +18057,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
   opacity: 1.0;
 }
 .view.view-artists .view-content > .pe-container .pe-item .image-circle {
+  margin-bottom: 23px;
   width: 100%;
   height: auto;
 }
@@ -18251,16 +18252,16 @@ form#user-profile-form div .form-actions .form-submit .icon {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background: #000 url(../images/kreis_verlauf_1.svg) no-repeat top left / contain;
+  background: #000 url(../images/kreis_verlauf_1.png) no-repeat top left / contain;
 }
 .view.view-artists .text-center ul.pagination li:nth-child(4n + 1) {
-  background: #000 url(../images/kreis_verlauf_2.svg) no-repeat top left / contain;
+  background: #000 url(../images/kreis_verlauf_2.png) no-repeat top left / contain;
 }
 .view.view-artists .text-center ul.pagination li:nth-child(4n + 2) {
-  background: #000 url(../images/kreis_verlauf_3.svg) no-repeat top left / contain;
+  background: #000 url(../images/kreis_verlauf_3.png) no-repeat top left / contain;
 }
 .view.view-artists .text-center ul.pagination li:nth-child(4n + 3) {
-  background: #000 url(../images/kreis_verlauf_4.svg) no-repeat top left / contain;
+  background: #000 url(../images/kreis_verlauf_4.png) no-repeat top left / contain;
 }
 .view.view-artists .text-center ul.pagination li a,
 .view.view-artists .text-center ul.pagination li span {
