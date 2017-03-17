@@ -37,7 +37,7 @@ function pixelgarage_preprocess_page(&$vars) {
 function _position_points() {
   $points = array();
   $num_points = 20;
-  $path = drupal_get_path('theme', 'pixelgarage') . '/images/kreis_weiss.svg';
+  $path = drupal_get_path('theme', 'pixelgarage') . '/images/kreis_weiss.png';
   $img_url = file_create_url($path);
   $img = "<img src='{$img_url}' class='bg-point' style='position: absolute; left:@x; top:@y;'/>";
 

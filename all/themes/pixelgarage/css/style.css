@@ -13028,9 +13028,9 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   background: #000 url(../images/kreis_verlauf_2.png) no-repeat top left / cover;
 }
 .node.node-artist.view-mode-orange > .row > div.col-sm-6 > .field-name-field-image .field-item,
-.node.node-artist.vview-mode-orangefull > .row > div.col-sm-6 > .field-name-field-image .field-item,
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-field-image .field-item,
 .node.node-artist.view-mode-orange > .row > div.col-sm-12 > .field-name-field-image .field-item,
-.node.node-artist.vview-mode-orangefull > .row > div.col-sm-12 > .field-name-field-image .field-item {
+.node.node-artist.view-mode-orangefull > .row > div.col-sm-12 > .field-name-field-image .field-item {
   background: #000 url(../images/kreis_verlauf_3.png) no-repeat top left / cover;
 }
 .node.node-artist.view-mode-redgreen > .row > div.col-sm-6 > .field-name-field-image .field-item,
