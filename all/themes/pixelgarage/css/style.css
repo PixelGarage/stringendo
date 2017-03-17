@@ -19624,6 +19624,14 @@ body .main-container {
     padding-bottom: 72px;
   }
 }
+body .main-container .img-circle-color img {
+  z-index: -1;
+  max-width: 12%;
+}
+body .main-container .img-point img {
+  z-index: -1;
+  max-width: 2.5%;
+}
 body .main-container .container,
 body .main-container .container-fluid {
   max-width: 1084px;
