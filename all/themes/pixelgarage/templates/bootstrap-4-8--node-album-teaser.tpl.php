@@ -13,7 +13,7 @@
  *
  */
 
-$play_button_url = file_create_url(drupal_get_path('theme', 'pixelgarage') . '/images/play_button.svg');
+$play_button_url = file_create_url(drupal_get_path('theme', 'pixelgarage') . '/images/play_button.png');
 ?>
 
 
