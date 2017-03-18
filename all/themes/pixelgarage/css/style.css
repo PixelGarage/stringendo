@@ -13092,6 +13092,11 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
     width: 50%;
   }
 }
+.node.node-album.view-mode-teaser > .row > div.col-sm-4 > .video-play-button img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
 .node.node-album.view-mode-teaser > .row > div.col-sm-8 {
   display: block;
   width: 100%;
