@@ -26,7 +26,16 @@
       }
 
       >.field-name-body {
-        margin: 50px 0;
+        margin: 0 0 100px;
+
+        .page-node-24 & {
+          margin: 40px 0 80px;
+
+          @media @narrow {
+            margin: 70px 0 140px;
+          }
+        }
+
         #pxl-mixins.wysiwyg-body();
       }
 

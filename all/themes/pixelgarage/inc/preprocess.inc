@@ -36,8 +36,8 @@ function pixelgarage_preprocess_page(&$vars) {
 
 function _position_points() {
   $points = array();
-  $num_points = 20;
-  $path = drupal_get_path('theme', 'pixelgarage') . '/images/kreis_weiss.png';
+  $num_points = 30;
+  $path = drupal_get_path('theme', 'pixelgarage') . '/images/kreis_weiss.svg';
   $img_url = file_create_url($path);
   $img = "<img src='{$img_url}' class='bg-point' style='position: absolute; left:@x; top:@y;'/>";
 
@@ -62,8 +62,13 @@ function _position_circles() {
     }
   }
   foreach ($circles as $idx => $circle) {
+    if ($idx <=3) {
+      $y = mt_rand(0, 15);
+    }
+    else {
+      $y = mt_rand(15, 100);
+    }
     $x = mt_rand(0, 100);
-    $y = mt_rand(0, 100);
     $str = str_replace('@x', $x . '%', $circles[$idx]);
     $circles[$idx] = str_replace('@y', $y . '%', $str);
   }

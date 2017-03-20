@@ -4,6 +4,9 @@
 
 // Variables
 // -------------------------
+@gloom-dist-1: 10px;
+@gloom-dist-2: 20px;
+@gloom-dist-3: 30px;
 
 
 // Mixins
@@ -108,7 +111,7 @@
 
   .glow() {
     font-family: @pxl-text-font-light;
-    .font-size-responsive(100px, 100px, 50px);
+    .font-size-responsive(130px, 130px, 50px);
     letter-spacing: 0.2em;
     line-height: 1;
     text-align: center;
@@ -116,14 +119,16 @@
     color: @text-color;
     //.animation(text-glow 3s ease-in-out infinite alternate);
     //.keyframes-text-glow();
-    text-shadow: 0 0 10px @pxl-color-glow, 0 0 10px @pxl-color-glow, 0 0 10px @pxl-color-glow, 0 0 20px @pxl-color-glow, 0 0 20px @pxl-color-glow, 0 0 20px @pxl-color-glow, 0 0 20px @pxl-color-glow, 0 0 30px @pxl-color-glow;
+    text-shadow: 0 0 @gloom-dist-1 @pxl-color-glow, 0 0 @gloom-dist-1 @pxl-color-glow, 0 0 @gloom-dist-1 @pxl-color-glow, 0 0 @gloom-dist-1 @pxl-color-glow, 0 0 @gloom-dist-1 @pxl-color-glow, 0 0 @gloom-dist-1 @pxl-color-glow,0 0 @gloom-dist-2 @pxl-color-glow, 0 0 @gloom-dist-2 @pxl-color-glow, 0 0 @gloom-dist-2 @pxl-color-glow, 0 0 @gloom-dist-2 @pxl-color-glow, 0 0 @gloom-dist-2 @pxl-color-glow, 0 0 @gloom-dist-2 @pxl-color-glow, 0 0 @gloom-dist-2 @pxl-color-glow, 0 0 @gloom-dist-2 @pxl-color-glow, 0 0 @gloom-dist-3 @pxl-color-glow;
   }
 
   .first-letter() {
     p:first-child::first-letter {
       .title();
       float: left;
+      .font-size-responsive(@resp-title-size-max, @resp-title-size-med, 44px);
       vertical-align: top;
+      line-height: 0.92em;
       padding-right: 10px;
     }
   }

@@ -7,7 +7,7 @@
 @pxl-content-fading-height: 20px;
 
 @footer-font-size: 15px;
-@footer-font-size-large: 22px;
+@footer-font-size-large: 15px;
 @pxl-footer-height: (30px + @footer-font-size);
 @pxl-footer-height-large: (50px + @footer-font-size-large);
 
@@ -63,7 +63,11 @@ body {
     .img-circle-color {
       img {
         z-index: -1;
-        max-width: 12%;
+        max-width: 20%;
+
+        @media @tablet {
+          max-width: 12%;
+        }
       }
     }
 
@@ -84,12 +88,13 @@ body {
         a.logo {
           display: block;
           float: none;
+          margin: 20px 0;
           width: 100%;
           text-align: center;
 
           img {
             display: inline-block;
-            max-height: 20px;
+            max-height: 60px;
             width: auto;
             max-width: 90%;
           }
@@ -180,24 +185,6 @@ body {
     }
   } // main-container
 
-  //
-  // logo visible only on front page
-  &.front {
-    .main-container {
-      .container, .container-fluid {
-        #page-header {
-          a.logo {
-            display: block;
-
-            img {
-              max-height: 60px;
-            }
-          }
-        }
-      }
-    }
-  }
-
   footer.footer {
     position: absolute;
     bottom: 0;
@@ -206,7 +193,7 @@ body {
     margin: 0;
     padding: 0;
     height: @pxl-footer-height;
-    border-top: 0.5px solid @pxl-color-border;
+    border-top: 1px solid @pxl-color-border;
 
     .container, .container-fluid {
       padding: 15px (@grid-gutter-width-large / 2);
@@ -224,7 +211,7 @@ body {
               padding: 0 12px;
               font-family: @pxl-text-font;
               font-size: @footer-font-size;
-              letter-spacing: 0.02em;
+              letter-spacing: 0.04em;
               line-height: @footer-font-size;
               color: @link-color;
               text-transform: uppercase;

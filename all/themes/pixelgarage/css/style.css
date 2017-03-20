@@ -10405,7 +10405,17 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 }
 .node.node-page.view-mode-full > .row > div.col-sm-12 > .field-name-body,
 .node.node-page.view-mode-default > .row > div.col-sm-12 > .field-name-body {
-  margin: 50px 0;
+  margin: 0 0 100px;
+}
+.page-node-24 .node.node-page.view-mode-full > .row > div.col-sm-12 > .field-name-body,
+.page-node-24 .node.node-page.view-mode-default > .row > div.col-sm-12 > .field-name-body {
+  margin: 40px 0 80px;
+}
+@media screen and (min-width: 30em) {
+  .page-node-24 .node.node-page.view-mode-full > .row > div.col-sm-12 > .field-name-body,
+  .page-node-24 .node.node-page.view-mode-default > .row > div.col-sm-12 > .field-name-body {
+    margin: 70px 0 140px;
+  }
 }
 .node.node-page.view-mode-full > .row > div.col-sm-12 > .field-name-body h1,
 .node.node-page.view-mode-default > .row > div.col-sm-12 > .field-name-body h1,
@@ -10470,7 +10480,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   margin: 10px auto;
   font-family: 'AvenirNextRegular';
   font-size: 18px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.06em;
   line-height: 1.2em;
   text-align: left;
   color: #fff;
@@ -10516,8 +10526,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   margin: 0 0 20px;
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -10548,24 +10558,24 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
+  text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
 }
-@media screen and (min-width: 24em) {
+@media screen and (min-width: 18.46153846153846em) {
   .node.node-page.view-mode-full > .row > div.col-sm-12 > .field-name-body .pxl-glow,
   .node.node-page.view-mode-default > .row > div.col-sm-12 > .field-name-body .pxl-glow {
-    font-size: 13.02083333vw;
+    font-size: 16.92708333vw;
   }
 }
 @media screen and (min-width: 48em) {
   .node.node-page.view-mode-full > .row > div.col-sm-12 > .field-name-body .pxl-glow,
   .node.node-page.view-mode-default > .row > div.col-sm-12 > .field-name-body .pxl-glow {
-    font-size: 100px;
+    font-size: 130px;
   }
 }
 @media screen and (min-width: 64em) {
   .node.node-page.view-mode-full > .row > div.col-sm-12 > .field-name-body .pxl-glow,
   .node.node-page.view-mode-default > .row > div.col-sm-12 > .field-name-body .pxl-glow {
-    font-size: 100px;
+    font-size: 130px;
   }
 }
 .node.node-page.view-mode-full > .row > div.col-sm-12 > .field-name-body .pxl-quote,
@@ -10600,8 +10610,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-page.view-mode-default > .row > div.col-sm-12 > .field-name-body a {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -10640,8 +10650,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-page.view-mode-full > .row > div.col-sm-12 > .field-name-body em,
 .node.node-page.view-mode-default > .row > div.col-sm-12 > .field-name-body em {
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   font-family: 'AvenirNextRegular';
@@ -10687,8 +10697,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-page.view-mode-full > .row > div.col-sm-12 > .field-name-body b,
 .node.node-page.view-mode-default > .row > div.col-sm-12 > .field-name-body b {
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   font-family: 'AvenirNextRegular';
@@ -10721,8 +10731,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-page.view-mode-default > .row > div.col-sm-12 > .field-name-body u {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -10754,8 +10764,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-page.view-mode-default > .row > div.col-sm-12 > .field-name-body mark {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   background-color: #ff0;
@@ -10812,12 +10822,12 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 }
 .node.node-page.view-mode-full > .row > div.col-sm-12 > .paragraphs-items > .field-name-field-paragraphs > .field-items > .field-item:not(:last-child),
 .node.node-page.view-mode-default > .row > div.col-sm-12 > .paragraphs-items > .field-name-field-paragraphs > .field-items > .field-item:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 @media screen and (min-width: 48em) {
   .node.node-page.view-mode-full > .row > div.col-sm-12 > .paragraphs-items > .field-name-field-paragraphs > .field-items > .field-item:not(:last-child),
   .node.node-page.view-mode-default > .row > div.col-sm-12 > .paragraphs-items > .field-name-field-paragraphs > .field-items > .field-item:not(:last-child) {
-    margin-bottom: 50px;
+    margin-bottom: 200px;
   }
 }
 /*
@@ -10877,6 +10887,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-instagram.view-mode-full > .row > div.col-sm-6 > .field-name-field-picture .field-item {
   padding: 2px;
   background: #000 url(../images/rainbow_square.png) no-repeat top left / cover;
+  padding: 4px;
 }
 .node.node-instagram.view-mode-default > .row > div.col-sm-6 > .field-name-field-picture .field-item img,
 .node.node-instagram.view-mode-full > .row > div.col-sm-6 > .field-name-field-picture .field-item img {
@@ -10892,7 +10903,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-instagram.view-mode-full > .row > div.col-sm-6 > .field-name-field-created-time .field-item span {
   font-family: 'AvenirNextRegular';
   font-size: 18px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.06em;
   line-height: 1.2em;
   text-align: left;
   color: #fff;
@@ -10988,7 +10999,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   margin: 10px auto;
   font-family: 'AvenirNextRegular';
   font-size: 18px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.06em;
   line-height: 1.2em;
   text-align: left;
   color: #fff;
@@ -11034,8 +11045,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   margin: 0 0 20px;
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -11066,24 +11077,24 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
+  text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
 }
-@media screen and (min-width: 24em) {
+@media screen and (min-width: 18.46153846153846em) {
   .node.node-instagram.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-glow,
   .node.node-instagram.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-glow {
-    font-size: 13.02083333vw;
+    font-size: 16.92708333vw;
   }
 }
 @media screen and (min-width: 48em) {
   .node.node-instagram.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-glow,
   .node.node-instagram.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-glow {
-    font-size: 100px;
+    font-size: 130px;
   }
 }
 @media screen and (min-width: 64em) {
   .node.node-instagram.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-glow,
   .node.node-instagram.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-glow {
-    font-size: 100px;
+    font-size: 130px;
   }
 }
 .node.node-instagram.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-quote,
@@ -11118,8 +11129,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-instagram.view-mode-full > .row > div.col-sm-6 > .field-name-body a {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -11158,8 +11169,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-instagram.view-mode-default > .row > div.col-sm-6 > .field-name-body em,
 .node.node-instagram.view-mode-full > .row > div.col-sm-6 > .field-name-body em {
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   font-family: 'AvenirNextRegular';
@@ -11205,8 +11216,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-instagram.view-mode-default > .row > div.col-sm-6 > .field-name-body b,
 .node.node-instagram.view-mode-full > .row > div.col-sm-6 > .field-name-body b {
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   font-family: 'AvenirNextRegular';
@@ -11239,8 +11250,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-instagram.view-mode-full > .row > div.col-sm-6 > .field-name-body u {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -11272,8 +11283,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-instagram.view-mode-full > .row > div.col-sm-6 > .field-name-body mark {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   background-color: #ff0;
@@ -11378,6 +11389,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-note.view-mode-full > .row > div.col-sm-6 > .field-name-field-image .field-item {
   padding: 2px;
   background: #000 url(../images/rainbow_square.png) no-repeat top left / cover;
+  padding: 4px;
 }
 .node.node-note.view-mode-default > .row > div.col-sm-6 > .field-name-field-image .field-item img,
 .node.node-note.view-mode-full > .row > div.col-sm-6 > .field-name-field-image .field-item img {
@@ -11393,7 +11405,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-note.view-mode-full > .row > div.col-sm-6 > .field-name-post-date .field-item {
   font-family: 'AvenirNextRegular';
   font-size: 18px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.06em;
   line-height: 1.2em;
   text-align: left;
   color: #fff;
@@ -11489,7 +11501,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   margin: 10px auto;
   font-family: 'AvenirNextRegular';
   font-size: 18px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.06em;
   line-height: 1.2em;
   text-align: left;
   color: #fff;
@@ -11535,8 +11547,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   margin: 0 0 20px;
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -11567,24 +11579,24 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
+  text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
 }
-@media screen and (min-width: 24em) {
+@media screen and (min-width: 18.46153846153846em) {
   .node.node-note.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-glow,
   .node.node-note.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-glow {
-    font-size: 13.02083333vw;
+    font-size: 16.92708333vw;
   }
 }
 @media screen and (min-width: 48em) {
   .node.node-note.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-glow,
   .node.node-note.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-glow {
-    font-size: 100px;
+    font-size: 130px;
   }
 }
 @media screen and (min-width: 64em) {
   .node.node-note.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-glow,
   .node.node-note.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-glow {
-    font-size: 100px;
+    font-size: 130px;
   }
 }
 .node.node-note.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-quote,
@@ -11619,8 +11631,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-note.view-mode-full > .row > div.col-sm-6 > .field-name-body a {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -11659,8 +11671,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-note.view-mode-default > .row > div.col-sm-6 > .field-name-body em,
 .node.node-note.view-mode-full > .row > div.col-sm-6 > .field-name-body em {
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   font-family: 'AvenirNextRegular';
@@ -11706,8 +11718,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-note.view-mode-default > .row > div.col-sm-6 > .field-name-body b,
 .node.node-note.view-mode-full > .row > div.col-sm-6 > .field-name-body b {
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   font-family: 'AvenirNextRegular';
@@ -11740,8 +11752,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-note.view-mode-full > .row > div.col-sm-6 > .field-name-body u {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -11773,8 +11785,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-note.view-mode-full > .row > div.col-sm-6 > .field-name-body mark {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   background-color: #ff0;
@@ -11840,7 +11852,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-artist.view-mode-orange > .row > div.col-sm-12 > .field-name-field-image .field-item,
 .node.node-artist.view-mode-teaser > .row > div.col-sm-12 > .field-name-field-image .field-item {
   overflow: hidden;
-  padding: 2px;
+  padding: 3px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
@@ -11865,7 +11877,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-artist.view-mode-redgreen > .row > div.col-sm-12 > .field-name-field-nickname,
 .node.node-artist.view-mode-orange > .row > div.col-sm-12 > .field-name-field-nickname,
 .node.node-artist.view-mode-teaser > .row > div.col-sm-12 > .field-name-field-nickname {
-  padding: 0;
+  padding: 8px 0 0;
 }
 .node.node-artist.view-mode-bluegreen > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
 .node.node-artist.view-mode-bluered > .row > div.col-sm-12 > .field-name-field-nickname .field-item,
@@ -11876,8 +11888,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-artist.view-mode-teaser > .row > div.col-sm-12 > .field-name-field-nickname .field-item {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   text-align: center;
@@ -11986,7 +11998,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-field-image .field-item,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-field-image .field-item {
   overflow: hidden;
-  padding: 5px;
+  padding: 4px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
@@ -12204,7 +12216,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   margin: 10px auto;
   font-family: 'AvenirNextRegular';
   font-size: 18px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.06em;
   line-height: 1.2em;
   text-align: left;
   color: #fff;
@@ -12328,8 +12340,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   margin: 0 0 20px;
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -12384,9 +12396,9 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
+  text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
 }
-@media screen and (min-width: 24em) {
+@media screen and (min-width: 18.46153846153846em) {
   .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
   .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
   .node.node-artist.view-mode-blueyellowfull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
@@ -12395,7 +12407,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-glow,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-glow {
-    font-size: 13.02083333vw;
+    font-size: 16.92708333vw;
   }
 }
 @media screen and (min-width: 48em) {
@@ -12407,7 +12419,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-glow,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-glow {
-    font-size: 100px;
+    font-size: 130px;
   }
 }
 @media screen and (min-width: 64em) {
@@ -12419,7 +12431,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   .node.node-artist.view-mode-orangefull > .row > div.col-sm-6 > .field-name-body .pxl-glow,
   .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body .pxl-glow,
   .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body .pxl-glow {
-    font-size: 100px;
+    font-size: 130px;
   }
 }
 .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body .pxl-quote,
@@ -12484,8 +12496,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body a {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -12578,8 +12590,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body em,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body em {
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   font-family: 'AvenirNextRegular';
@@ -12709,8 +12721,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body b,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body b {
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   font-family: 'AvenirNextRegular';
@@ -12785,8 +12797,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body u {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -12854,8 +12866,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body mark {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   background-color: #ff0;
@@ -12974,8 +12986,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-field-certificates .field-item {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -13084,12 +13096,12 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 30%;
+  width: 50%;
   height: auto;
 }
 @media screen and (min-width: 30em) {
   .node.node-album.view-mode-teaser > .row > div.col-sm-4 > .video-play-button {
-    width: 50%;
+    width: 65%;
   }
 }
 .node.node-album.view-mode-teaser > .row > div.col-sm-4 > .video-play-button img {
@@ -13113,34 +13125,34 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-title h2 {
   margin: 0;
   font-family: 'AvenirNextRegular';
-  font-size: 18px;
-  line-height: 1.2em;
+  font-size: 15px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
 }
-@media screen and (min-width: 37.56521739130435em) {
+@media screen and (min-width: 40em) {
   .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-title h2 {
-    font-size: 2.99479167vw;
+    font-size: 2.34375vw;
   }
 }
 @media screen and (min-width: 48em) {
   .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-title h2 {
-    font-size: 23px;
+    font-size: 18px;
   }
 }
 @media screen and (min-width: 64em) {
   .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-title h2 {
-    font-size: 23px;
+    font-size: 18px;
   }
 }
 .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-subtitle .field-item {
-  margin: 0 0 8px;
+  margin: 0;
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   font-style: italic;
@@ -13161,16 +13173,15 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   }
 }
 .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-artist {
-  margin: 0 0 8px;
+  margin: 0 auto 15px;
 }
 .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-artist .field-item {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
-  line-height: 1.2;
 }
 @media screen and (min-width: 40em) {
   .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-artist .field-item {
@@ -13191,13 +13202,11 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   display: inline-block;
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
   text-align: left;
   color: #fff;
   font-weight: normal;
-  letter-spacing: 0.02em;
-  line-height: 1.2;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
 }
 @media screen and (min-width: 40em) {
   .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-publisher .field-label {
@@ -13220,11 +13229,10 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-publisher .field-items .field-item {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
-  line-height: 1.2;
 }
 @media screen and (min-width: 40em) {
   .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-publisher .field-items .field-item {
@@ -13245,13 +13253,11 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   display: inline-block;
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
   text-align: left;
   color: #fff;
   font-weight: normal;
-  letter-spacing: 0.02em;
-  line-height: 1.2;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
 }
 @media screen and (min-width: 40em) {
   .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-published .field-label {
@@ -13274,11 +13280,10 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-published .field-items .field-item {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
-  line-height: 1.2;
 }
 @media screen and (min-width: 40em) {
   .node.node-album.view-mode-teaser > .row > div.col-sm-8 > .field-name-field-published .field-items .field-item {
@@ -13316,44 +13321,43 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 }
 .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-title h2,
 .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-title h2 {
-  margin: 0 auto 10px;
+  margin: 0 auto;
   font-family: 'AvenirNextRegular';
-  font-size: 18px;
-  line-height: 1.2em;
+  font-size: 15px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
 }
-@media screen and (min-width: 37.56521739130435em) {
+@media screen and (min-width: 40em) {
   .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-title h2,
   .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-title h2 {
-    font-size: 2.99479167vw;
+    font-size: 2.34375vw;
   }
 }
 @media screen and (min-width: 48em) {
   .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-title h2,
   .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-title h2 {
-    font-size: 23px;
+    font-size: 18px;
   }
 }
 @media screen and (min-width: 64em) {
   .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-title h2,
   .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-title h2 {
-    font-size: 23px;
+    font-size: 18px;
   }
 }
 .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-subtitle .field-item,
 .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-subtitle .field-item {
-  margin: 0 0 8px;
+  margin: 0;
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   font-style: italic;
-  letter-spacing: 0.02em;
 }
 @media screen and (min-width: 40em) {
   .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-subtitle .field-item,
@@ -13375,17 +13379,16 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 }
 .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-artist,
 .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-artist {
-  margin: 0 0 8px;
+  margin: 0 auto 15px;
 }
 .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-artist .field-item,
 .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-artist .field-item {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
-  line-height: 1.2;
 }
 @media screen and (min-width: 40em) {
   .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-artist .field-item,
@@ -13410,13 +13413,11 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   display: inline-block;
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
   text-align: left;
   color: #fff;
   font-weight: normal;
-  letter-spacing: 0.02em;
-  line-height: 1.2;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
 }
 @media screen and (min-width: 40em) {
   .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-publisher .field-label,
@@ -13444,11 +13445,10 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-publisher .field-items .field-item {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
-  line-height: 1.2;
 }
 @media screen and (min-width: 40em) {
   .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-publisher .field-items .field-item,
@@ -13473,13 +13473,11 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   display: inline-block;
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
   text-align: left;
   color: #fff;
   font-weight: normal;
-  letter-spacing: 0.02em;
-  line-height: 1.2;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
 }
 @media screen and (min-width: 40em) {
   .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-published .field-label,
@@ -13507,11 +13505,10 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-album.view-mode-default > .row > div.col-sm-6 > .field-name-field-published .field-items .field-item {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
-  line-height: 1.2;
 }
 @media screen and (min-width: 40em) {
   .node.node-album.view-mode-full > .row > div.col-sm-6 > .field-name-field-published .field-items .field-item,
@@ -13604,7 +13601,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   margin: 10px auto;
   font-family: 'AvenirNextRegular';
   font-size: 18px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.06em;
   line-height: 1.2em;
   text-align: left;
   color: #fff;
@@ -13650,8 +13647,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   margin: 0 0 20px;
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -13682,24 +13679,24 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
+  text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
 }
-@media screen and (min-width: 24em) {
+@media screen and (min-width: 18.46153846153846em) {
   .node.node-album.view-mode-full > .row > div.col-sm-12 > .field-name-body .pxl-glow,
   .node.node-album.view-mode-default > .row > div.col-sm-12 > .field-name-body .pxl-glow {
-    font-size: 13.02083333vw;
+    font-size: 16.92708333vw;
   }
 }
 @media screen and (min-width: 48em) {
   .node.node-album.view-mode-full > .row > div.col-sm-12 > .field-name-body .pxl-glow,
   .node.node-album.view-mode-default > .row > div.col-sm-12 > .field-name-body .pxl-glow {
-    font-size: 100px;
+    font-size: 130px;
   }
 }
 @media screen and (min-width: 64em) {
   .node.node-album.view-mode-full > .row > div.col-sm-12 > .field-name-body .pxl-glow,
   .node.node-album.view-mode-default > .row > div.col-sm-12 > .field-name-body .pxl-glow {
-    font-size: 100px;
+    font-size: 130px;
   }
 }
 .node.node-album.view-mode-full > .row > div.col-sm-12 > .field-name-body .pxl-quote,
@@ -13734,8 +13731,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-album.view-mode-default > .row > div.col-sm-12 > .field-name-body a {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -13774,8 +13771,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-album.view-mode-full > .row > div.col-sm-12 > .field-name-body em,
 .node.node-album.view-mode-default > .row > div.col-sm-12 > .field-name-body em {
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   font-family: 'AvenirNextRegular';
@@ -13821,8 +13818,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-album.view-mode-full > .row > div.col-sm-12 > .field-name-body b,
 .node.node-album.view-mode-default > .row > div.col-sm-12 > .field-name-body b {
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   font-family: 'AvenirNextRegular';
@@ -13855,8 +13852,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-album.view-mode-default > .row > div.col-sm-12 > .field-name-body u {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -13888,8 +13885,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-album.view-mode-default > .row > div.col-sm-12 > .field-name-body mark {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   background-color: #ff0;
@@ -14075,7 +14072,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   margin: 10px auto;
   font-family: 'AvenirNextRegular';
   font-size: 18px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.06em;
   line-height: 1.2em;
   text-align: left;
   color: #fff;
@@ -14121,8 +14118,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   margin: 0 0 20px;
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -14153,24 +14150,24 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
+  text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
 }
-@media screen and (min-width: 24em) {
+@media screen and (min-width: 18.46153846153846em) {
   .node.node-banner.view-mode-full > .row > div.col-sm-12 > .field-name-body .pxl-glow,
   .node.node-banner.view-mode-default > .row > div.col-sm-12 > .field-name-body .pxl-glow {
-    font-size: 13.02083333vw;
+    font-size: 16.92708333vw;
   }
 }
 @media screen and (min-width: 48em) {
   .node.node-banner.view-mode-full > .row > div.col-sm-12 > .field-name-body .pxl-glow,
   .node.node-banner.view-mode-default > .row > div.col-sm-12 > .field-name-body .pxl-glow {
-    font-size: 100px;
+    font-size: 130px;
   }
 }
 @media screen and (min-width: 64em) {
   .node.node-banner.view-mode-full > .row > div.col-sm-12 > .field-name-body .pxl-glow,
   .node.node-banner.view-mode-default > .row > div.col-sm-12 > .field-name-body .pxl-glow {
-    font-size: 100px;
+    font-size: 130px;
   }
 }
 .node.node-banner.view-mode-full > .row > div.col-sm-12 > .field-name-body .pxl-quote,
@@ -14205,8 +14202,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-banner.view-mode-default > .row > div.col-sm-12 > .field-name-body a {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -14245,8 +14242,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-banner.view-mode-full > .row > div.col-sm-12 > .field-name-body em,
 .node.node-banner.view-mode-default > .row > div.col-sm-12 > .field-name-body em {
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   font-family: 'AvenirNextRegular';
@@ -14292,8 +14289,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-banner.view-mode-full > .row > div.col-sm-12 > .field-name-body b,
 .node.node-banner.view-mode-default > .row > div.col-sm-12 > .field-name-body b {
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   font-family: 'AvenirNextRegular';
@@ -14326,8 +14323,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-banner.view-mode-default > .row > div.col-sm-12 > .field-name-body u {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -14359,8 +14356,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-banner.view-mode-default > .row > div.col-sm-12 > .field-name-body mark {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   background-color: #ff0;
@@ -14528,7 +14525,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   margin: 10px auto;
   font-family: 'AvenirNextRegular';
   font-size: 18px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.06em;
   line-height: 1.2em;
   text-align: left;
   color: #fff;
@@ -14574,8 +14571,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   margin: 0 0 20px;
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -14606,24 +14603,24 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
+  text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
 }
-@media screen and (min-width: 24em) {
+@media screen and (min-width: 18.46153846153846em) {
   .node.node-webform .row .col-sm-12 .field-name-body .pxl-glow,
   .node.node-webform .row .col-sm-6 .field-name-body .pxl-glow {
-    font-size: 13.02083333vw;
+    font-size: 16.92708333vw;
   }
 }
 @media screen and (min-width: 48em) {
   .node.node-webform .row .col-sm-12 .field-name-body .pxl-glow,
   .node.node-webform .row .col-sm-6 .field-name-body .pxl-glow {
-    font-size: 100px;
+    font-size: 130px;
   }
 }
 @media screen and (min-width: 64em) {
   .node.node-webform .row .col-sm-12 .field-name-body .pxl-glow,
   .node.node-webform .row .col-sm-6 .field-name-body .pxl-glow {
-    font-size: 100px;
+    font-size: 130px;
   }
 }
 .node.node-webform .row .col-sm-12 .field-name-body .pxl-quote,
@@ -14658,8 +14655,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-webform .row .col-sm-6 .field-name-body a {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -14698,8 +14695,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-webform .row .col-sm-12 .field-name-body em,
 .node.node-webform .row .col-sm-6 .field-name-body em {
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   font-family: 'AvenirNextRegular';
@@ -14745,8 +14742,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-webform .row .col-sm-12 .field-name-body b,
 .node.node-webform .row .col-sm-6 .field-name-body b {
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   font-family: 'AvenirNextRegular';
@@ -14779,8 +14776,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-webform .row .col-sm-6 .field-name-body u {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -14812,8 +14809,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-webform .row .col-sm-6 .field-name-body mark {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   background-color: #ff0;
@@ -14914,7 +14911,7 @@ form#user-login {
   letter-spacing: normal;
   line-height: 1.15em;
   text-align: left;
-  color: #fff;
+  color: #000;
   font-weight: normal;
 }
 @media screen and (min-width: 40em) {
@@ -14940,7 +14937,7 @@ form#user-login {
   letter-spacing: normal;
   line-height: 1.15em;
   text-align: left;
-  color: #fff;
+  color: #000;
   border: #fff;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -14987,7 +14984,7 @@ form#user-login {
   letter-spacing: normal;
   line-height: 1.15em;
   text-align: left;
-  color: #fff;
+  color: #000;
   font-size: 11px;
   color: #808080;
 }
@@ -15064,7 +15061,7 @@ form#user-login {
   letter-spacing: normal;
   line-height: 1.15em;
   text-align: left;
-  color: #fff;
+  color: #000;
   font-family: 'AvenirNextUltraLight';
   vertical-align: middle;
 }
@@ -15341,7 +15338,7 @@ form#user-login {
   letter-spacing: normal;
   line-height: 1.15em;
   text-align: left;
-  color: #fff;
+  color: #000;
   font-weight: normal;
 }
 @media screen and (min-width: 40em) {
@@ -15371,7 +15368,7 @@ form#user-login {
   letter-spacing: normal;
   line-height: 1.15em;
   text-align: left;
-  color: #fff;
+  color: #000;
   border: #fff;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -15426,7 +15423,7 @@ form#user-login {
   letter-spacing: normal;
   line-height: 1.15em;
   text-align: left;
-  color: #fff;
+  color: #000;
   font-size: 11px;
   color: #808080;
 }
@@ -15521,7 +15518,7 @@ form#user-login {
   letter-spacing: normal;
   line-height: 1.15em;
   text-align: left;
-  color: #fff;
+  color: #000;
   font-family: 'AvenirNextUltraLight';
   vertical-align: middle;
 }
@@ -15915,7 +15912,7 @@ form#user-login {
   margin: 10px auto;
   font-family: 'AvenirNextRegular';
   font-size: 18px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.06em;
   line-height: 1.2em;
   text-align: left;
   color: #fff;
@@ -15974,8 +15971,8 @@ form#user-login {
   margin: 0 0 20px;
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -16010,27 +16007,27 @@ form#user-login {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
+  text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
 }
-@media screen and (min-width: 24em) {
+@media screen and (min-width: 18.46153846153846em) {
   .user-profile .row .col-sm-4 .field-name-field-short-description .field-item .pxl-glow,
   .user-profile .row .col-sm-8 .field-name-field-short-description .field-item .pxl-glow,
   .user-profile .row .col-sm-12 .field-name-field-short-description .field-item .pxl-glow {
-    font-size: 13.02083333vw;
+    font-size: 16.92708333vw;
   }
 }
 @media screen and (min-width: 48em) {
   .user-profile .row .col-sm-4 .field-name-field-short-description .field-item .pxl-glow,
   .user-profile .row .col-sm-8 .field-name-field-short-description .field-item .pxl-glow,
   .user-profile .row .col-sm-12 .field-name-field-short-description .field-item .pxl-glow {
-    font-size: 100px;
+    font-size: 130px;
   }
 }
 @media screen and (min-width: 64em) {
   .user-profile .row .col-sm-4 .field-name-field-short-description .field-item .pxl-glow,
   .user-profile .row .col-sm-8 .field-name-field-short-description .field-item .pxl-glow,
   .user-profile .row .col-sm-12 .field-name-field-short-description .field-item .pxl-glow {
-    font-size: 100px;
+    font-size: 130px;
   }
 }
 .user-profile .row .col-sm-4 .field-name-field-short-description .field-item .pxl-quote,
@@ -16070,8 +16067,8 @@ form#user-login {
 .user-profile .row .col-sm-12 .field-name-field-short-description .field-item a {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -16119,8 +16116,8 @@ form#user-login {
 .user-profile .row .col-sm-8 .field-name-field-short-description .field-item em,
 .user-profile .row .col-sm-12 .field-name-field-short-description .field-item em {
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   font-family: 'AvenirNextRegular';
@@ -16180,8 +16177,8 @@ form#user-login {
 .user-profile .row .col-sm-8 .field-name-field-short-description .field-item b,
 .user-profile .row .col-sm-12 .field-name-field-short-description .field-item b {
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   font-family: 'AvenirNextRegular';
@@ -16221,8 +16218,8 @@ form#user-login {
 .user-profile .row .col-sm-12 .field-name-field-short-description .field-item u {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -16260,8 +16257,8 @@ form#user-login {
 .user-profile .row .col-sm-12 .field-name-field-short-description .field-item mark {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   background-color: #ff0;
@@ -16400,7 +16397,7 @@ form#user-profile-form div .form-wrapper .form-item label.control-label {
   letter-spacing: normal;
   line-height: 1.15em;
   text-align: left;
-  color: #fff;
+  color: #000;
   font-weight: normal;
 }
 @media screen and (min-width: 40em) {
@@ -16426,7 +16423,7 @@ form#user-profile-form div .form-wrapper .form-item input.form-control {
   letter-spacing: normal;
   line-height: 1.15em;
   text-align: left;
-  color: #fff;
+  color: #000;
   border: #fff;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -16473,7 +16470,7 @@ form#user-profile-form div .form-wrapper .form-item .help-block {
   letter-spacing: normal;
   line-height: 1.15em;
   text-align: left;
-  color: #fff;
+  color: #000;
   font-size: 11px;
   color: #808080;
 }
@@ -16550,7 +16547,7 @@ form#user-profile-form div .form-wrapper .form-item .form-checkboxes .checkbox >
   letter-spacing: normal;
   line-height: 1.15em;
   text-align: left;
-  color: #fff;
+  color: #000;
   font-family: 'AvenirNextUltraLight';
   vertical-align: middle;
 }
@@ -16773,7 +16770,12 @@ form#user-profile-form div .form-actions .form-submit .icon {
  * --------------------------------------------------*/
 .entity-paragraphs-item.paragraphs-item-text-paragraph {
   margin: 0 auto;
-  width: 85%;
+  width: 100%;
+}
+@media screen and (min-width: 30em) {
+  .entity-paragraphs-item.paragraphs-item-text-paragraph {
+    width: 85%;
+  }
 }
 .entity-paragraphs-item.paragraphs-item-text-paragraph .row .col-sm-12 .field-name-field-title .field-item {
   margin: 0 auto 0.5em;
@@ -16850,7 +16852,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
   margin: 10px auto;
   font-family: 'AvenirNextRegular';
   font-size: 18px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.06em;
   line-height: 1.2em;
   text-align: left;
   color: #fff;
@@ -16883,8 +16885,8 @@ form#user-profile-form div .form-actions .form-submit .icon {
   margin: 0 0 20px;
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -16911,21 +16913,21 @@ form#user-profile-form div .form-actions .form-submit .icon {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
+  text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
 }
-@media screen and (min-width: 24em) {
+@media screen and (min-width: 18.46153846153846em) {
   .entity-paragraphs-item.paragraphs-item-text-paragraph .row .col-sm-12 .field-name-field-text .field-item .pxl-glow {
-    font-size: 13.02083333vw;
+    font-size: 16.92708333vw;
   }
 }
 @media screen and (min-width: 48em) {
   .entity-paragraphs-item.paragraphs-item-text-paragraph .row .col-sm-12 .field-name-field-text .field-item .pxl-glow {
-    font-size: 100px;
+    font-size: 130px;
   }
 }
 @media screen and (min-width: 64em) {
   .entity-paragraphs-item.paragraphs-item-text-paragraph .row .col-sm-12 .field-name-field-text .field-item .pxl-glow {
-    font-size: 100px;
+    font-size: 130px;
   }
 }
 .entity-paragraphs-item.paragraphs-item-text-paragraph .row .col-sm-12 .field-name-field-text .field-item .pxl-quote {
@@ -16955,8 +16957,8 @@ form#user-profile-form div .form-actions .form-submit .icon {
 .entity-paragraphs-item.paragraphs-item-text-paragraph .row .col-sm-12 .field-name-field-text .field-item a {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -16986,8 +16988,8 @@ form#user-profile-form div .form-actions .form-submit .icon {
 .entity-paragraphs-item.paragraphs-item-text-paragraph .row .col-sm-12 .field-name-field-text .field-item i,
 .entity-paragraphs-item.paragraphs-item-text-paragraph .row .col-sm-12 .field-name-field-text .field-item em {
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   font-family: 'AvenirNextRegular';
@@ -17019,8 +17021,8 @@ form#user-profile-form div .form-actions .form-submit .icon {
 .entity-paragraphs-item.paragraphs-item-text-paragraph .row .col-sm-12 .field-name-field-text .field-item strong,
 .entity-paragraphs-item.paragraphs-item-text-paragraph .row .col-sm-12 .field-name-field-text .field-item b {
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   font-family: 'AvenirNextRegular';
@@ -17046,8 +17048,8 @@ form#user-profile-form div .form-actions .form-submit .icon {
 .entity-paragraphs-item.paragraphs-item-text-paragraph .row .col-sm-12 .field-name-field-text .field-item u {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -17073,8 +17075,8 @@ form#user-profile-form div .form-actions .form-submit .icon {
 .entity-paragraphs-item.paragraphs-item-text-paragraph .row .col-sm-12 .field-name-field-text .field-item mark {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   background-color: #ff0;
@@ -17128,10 +17130,27 @@ form#user-profile-form div .form-actions .form-submit .icon {
   text-align: left;
   color: #fff;
   float: left;
+  font-size: 44px;
   vertical-align: top;
+  line-height: 0.92em;
   padding-right: 10px;
 }
 @media screen and (min-width: 21.735849056603772em) {
+  .entity-paragraphs-item.paragraphs-item-text-paragraph .row .col-sm-12 .field-name-field-text .field-item p:first-child::first-letter {
+    font-size: 6.90104167vw;
+  }
+}
+@media screen and (min-width: 48em) {
+  .entity-paragraphs-item.paragraphs-item-text-paragraph .row .col-sm-12 .field-name-field-text .field-item p:first-child::first-letter {
+    font-size: 53px;
+  }
+}
+@media screen and (min-width: 64em) {
+  .entity-paragraphs-item.paragraphs-item-text-paragraph .row .col-sm-12 .field-name-field-text .field-item p:first-child::first-letter {
+    font-size: 53px;
+  }
+}
+@media screen and (min-width: 39.84905660377358em) {
   .entity-paragraphs-item.paragraphs-item-text-paragraph .row .col-sm-12 .field-name-field-text .field-item p:first-child::first-letter {
     font-size: 6.90104167vw;
   }
@@ -17295,7 +17314,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
   margin: 10px auto;
   font-family: 'AvenirNextRegular';
   font-size: 18px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.06em;
   line-height: 1.2em;
   text-align: left;
   color: #fff;
@@ -17341,8 +17360,8 @@ form#user-profile-form div .form-actions .form-submit .icon {
   margin: 0 0 20px;
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -17373,24 +17392,24 @@ form#user-profile-form div .form-actions .form-submit .icon {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
+  text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
 }
-@media screen and (min-width: 24em) {
+@media screen and (min-width: 18.46153846153846em) {
   .entity-paragraphs-item.paragraphs-item-text-block-paragraph .row .col-sm-6 .field-name-field-text .field-item .pxl-glow,
   .entity-paragraphs-item.paragraphs-item-block-text-paragraph .row .col-sm-6 .field-name-field-text .field-item .pxl-glow {
-    font-size: 13.02083333vw;
+    font-size: 16.92708333vw;
   }
 }
 @media screen and (min-width: 48em) {
   .entity-paragraphs-item.paragraphs-item-text-block-paragraph .row .col-sm-6 .field-name-field-text .field-item .pxl-glow,
   .entity-paragraphs-item.paragraphs-item-block-text-paragraph .row .col-sm-6 .field-name-field-text .field-item .pxl-glow {
-    font-size: 100px;
+    font-size: 130px;
   }
 }
 @media screen and (min-width: 64em) {
   .entity-paragraphs-item.paragraphs-item-text-block-paragraph .row .col-sm-6 .field-name-field-text .field-item .pxl-glow,
   .entity-paragraphs-item.paragraphs-item-block-text-paragraph .row .col-sm-6 .field-name-field-text .field-item .pxl-glow {
-    font-size: 100px;
+    font-size: 130px;
   }
 }
 .entity-paragraphs-item.paragraphs-item-text-block-paragraph .row .col-sm-6 .field-name-field-text .field-item .pxl-quote,
@@ -17425,8 +17444,8 @@ form#user-profile-form div .form-actions .form-submit .icon {
 .entity-paragraphs-item.paragraphs-item-block-text-paragraph .row .col-sm-6 .field-name-field-text .field-item a {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -17465,8 +17484,8 @@ form#user-profile-form div .form-actions .form-submit .icon {
 .entity-paragraphs-item.paragraphs-item-text-block-paragraph .row .col-sm-6 .field-name-field-text .field-item em,
 .entity-paragraphs-item.paragraphs-item-block-text-paragraph .row .col-sm-6 .field-name-field-text .field-item em {
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   font-family: 'AvenirNextRegular';
@@ -17512,8 +17531,8 @@ form#user-profile-form div .form-actions .form-submit .icon {
 .entity-paragraphs-item.paragraphs-item-text-block-paragraph .row .col-sm-6 .field-name-field-text .field-item b,
 .entity-paragraphs-item.paragraphs-item-block-text-paragraph .row .col-sm-6 .field-name-field-text .field-item b {
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   font-family: 'AvenirNextRegular';
@@ -17546,8 +17565,8 @@ form#user-profile-form div .form-actions .form-submit .icon {
 .entity-paragraphs-item.paragraphs-item-block-text-paragraph .row .col-sm-6 .field-name-field-text .field-item u {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -17579,8 +17598,8 @@ form#user-profile-form div .form-actions .form-submit .icon {
 .entity-paragraphs-item.paragraphs-item-block-text-paragraph .row .col-sm-6 .field-name-field-text .field-item mark {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   background-color: #ff0;
@@ -17644,10 +17663,30 @@ form#user-profile-form div .form-actions .form-submit .icon {
   text-align: left;
   color: #fff;
   float: left;
+  font-size: 44px;
   vertical-align: top;
+  line-height: 0.92em;
   padding-right: 10px;
 }
 @media screen and (min-width: 21.735849056603772em) {
+  .entity-paragraphs-item.paragraphs-item-text-block-paragraph .row .col-sm-6 .field-name-field-text .field-item p:first-child::first-letter,
+  .entity-paragraphs-item.paragraphs-item-block-text-paragraph .row .col-sm-6 .field-name-field-text .field-item p:first-child::first-letter {
+    font-size: 6.90104167vw;
+  }
+}
+@media screen and (min-width: 48em) {
+  .entity-paragraphs-item.paragraphs-item-text-block-paragraph .row .col-sm-6 .field-name-field-text .field-item p:first-child::first-letter,
+  .entity-paragraphs-item.paragraphs-item-block-text-paragraph .row .col-sm-6 .field-name-field-text .field-item p:first-child::first-letter {
+    font-size: 53px;
+  }
+}
+@media screen and (min-width: 64em) {
+  .entity-paragraphs-item.paragraphs-item-text-block-paragraph .row .col-sm-6 .field-name-field-text .field-item p:first-child::first-letter,
+  .entity-paragraphs-item.paragraphs-item-block-text-paragraph .row .col-sm-6 .field-name-field-text .field-item p:first-child::first-letter {
+    font-size: 53px;
+  }
+}
+@media screen and (min-width: 39.84905660377358em) {
   .entity-paragraphs-item.paragraphs-item-text-block-paragraph .row .col-sm-6 .field-name-field-text .field-item p:first-child::first-letter,
   .entity-paragraphs-item.paragraphs-item-block-text-paragraph .row .col-sm-6 .field-name-field-text .field-item p:first-child::first-letter {
     font-size: 6.90104167vw;
@@ -17863,7 +17902,12 @@ form#user-profile-form div .form-actions .form-submit .icon {
  * --------------------------------------------------*/
 .entity-paragraphs-item.paragraphs-item-quote {
   margin: 0 auto;
-  width: 85%;
+  width: 100%;
+}
+@media screen and (min-width: 30em) {
+  .entity-paragraphs-item.paragraphs-item-quote {
+    width: 85%;
+  }
 }
 .entity-paragraphs-item.paragraphs-item-quote .row .col-sm-12 .field-name-field-title .field-item {
   margin: 0 auto 0.5em;
@@ -17932,7 +17976,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
   margin: 10px auto;
   font-family: 'AvenirNextRegular';
   font-size: 18px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.06em;
   line-height: 1.2em;
   text-align: left;
   color: #fff;
@@ -17965,8 +18009,8 @@ form#user-profile-form div .form-actions .form-submit .icon {
   margin: 0 0 20px;
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -17993,21 +18037,21 @@ form#user-profile-form div .form-actions .form-submit .icon {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
+  text-shadow: 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 10px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 20px #40856D, 0 0 30px #40856D;
 }
-@media screen and (min-width: 24em) {
+@media screen and (min-width: 18.46153846153846em) {
   .entity-paragraphs-item.paragraphs-item-quote .row .col-sm-12 .field-name-field-text .field-item .pxl-glow {
-    font-size: 13.02083333vw;
+    font-size: 16.92708333vw;
   }
 }
 @media screen and (min-width: 48em) {
   .entity-paragraphs-item.paragraphs-item-quote .row .col-sm-12 .field-name-field-text .field-item .pxl-glow {
-    font-size: 100px;
+    font-size: 130px;
   }
 }
 @media screen and (min-width: 64em) {
   .entity-paragraphs-item.paragraphs-item-quote .row .col-sm-12 .field-name-field-text .field-item .pxl-glow {
-    font-size: 100px;
+    font-size: 130px;
   }
 }
 .entity-paragraphs-item.paragraphs-item-quote .row .col-sm-12 .field-name-field-text .field-item .pxl-quote {
@@ -18037,8 +18081,8 @@ form#user-profile-form div .form-actions .form-submit .icon {
 .entity-paragraphs-item.paragraphs-item-quote .row .col-sm-12 .field-name-field-text .field-item a {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -18068,8 +18112,8 @@ form#user-profile-form div .form-actions .form-submit .icon {
 .entity-paragraphs-item.paragraphs-item-quote .row .col-sm-12 .field-name-field-text .field-item i,
 .entity-paragraphs-item.paragraphs-item-quote .row .col-sm-12 .field-name-field-text .field-item em {
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   font-family: 'AvenirNextRegular';
@@ -18101,8 +18145,8 @@ form#user-profile-form div .form-actions .form-submit .icon {
 .entity-paragraphs-item.paragraphs-item-quote .row .col-sm-12 .field-name-field-text .field-item strong,
 .entity-paragraphs-item.paragraphs-item-quote .row .col-sm-12 .field-name-field-text .field-item b {
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   font-family: 'AvenirNextRegular';
@@ -18128,8 +18172,8 @@ form#user-profile-form div .form-actions .form-submit .icon {
 .entity-paragraphs-item.paragraphs-item-quote .row .col-sm-12 .field-name-field-text .field-item u {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
 }
@@ -18155,8 +18199,8 @@ form#user-profile-form div .form-actions .form-submit .icon {
 .entity-paragraphs-item.paragraphs-item-quote .row .col-sm-12 .field-name-field-text .field-item mark {
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: normal;
-  line-height: 23px;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
   text-align: left;
   color: #fff;
   background-color: #ff0;
@@ -18241,11 +18285,16 @@ form#user-profile-form div .form-actions .form-submit .icon {
 .view.view-proximity .view-content > .pe-container .pe-item {
   display: inline-block;
   overflow: visible;
-  margin: 0 0 1.875% !important;
+  margin: 0 0 3.75% !important;
   opacity: 1.0;
   -webkit-transition: opacity 1s;
   -o-transition: opacity 1s;
   transition: opacity 1s;
+}
+@media screen and (min-width: 30em) {
+  .view.view-proximity .view-content > .pe-container .pe-item {
+    margin: 0 0 1.875% !important;
+  }
 }
 .view.view-proximity .view-content > .pe-container .pe-item.shown {
   opacity: 1.0;
@@ -18624,11 +18673,16 @@ form#user-profile-form div .form-actions .form-submit .icon {
 .view.view-notes .view-content > .pe-container .pe-item {
   display: inline-block;
   overflow: visible;
-  margin: 0 0 1.875% !important;
+  margin: 0 0 3.75% !important;
   opacity: 1.0;
   -webkit-transition: opacity 1s;
   -o-transition: opacity 1s;
   transition: opacity 1s;
+}
+@media screen and (min-width: 30em) {
+  .view.view-notes .view-content > .pe-container .pe-item {
+    margin: 0 0 1.875% !important;
+  }
 }
 .view.view-notes .view-content > .pe-container .pe-item.shown {
   opacity: 1.0;
@@ -18859,7 +18913,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
   opacity: 1.0;
 }
 .view.view-artists .view-content > .pe-container .pe-item .image-circle {
-  margin-bottom: 23px;
+  margin-bottom: 33px;
   width: 100%;
   height: auto;
 }
@@ -19104,6 +19158,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
  * --------------------------------------------------*/
 .view.view-music-albums {
   width: 100%;
+  margin-top: 9px;
 }
 .view.view-music-albums .view-content {
   padding: 0;
@@ -20280,31 +20335,39 @@ header#navbar .container-fluid .navbar-header .region-navigation ul.nav {
 header#navbar .container .navbar-header .region-navigation ul.nav li,
 header#navbar .container-fluid .navbar-header .region-navigation ul.nav li {
   display: inline-block;
+  padding-bottom: 5px;
+  border: none;
 }
 header#navbar .container .navbar-header .region-navigation ul.nav li a,
 header#navbar .container-fluid .navbar-header .region-navigation ul.nav li a {
   padding: 0;
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   line-height: 1;
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
-}
-header#navbar .container .navbar-header .region-navigation ul.nav li a:hover,
-header#navbar .container-fluid .navbar-header .region-navigation ul.nav li a:hover,
-header#navbar .container .navbar-header .region-navigation ul.nav li a.active,
-header#navbar .container-fluid .navbar-header .region-navigation ul.nav li a.active {
-  color: #fff;
-  text-decoration: underline;
-  background: none;
 }
 @media screen and (min-width: 30em) {
   header#navbar .container .navbar-header .region-navigation ul.nav li a,
   header#navbar .container-fluid .navbar-header .region-navigation ul.nav li a {
     font-size: 22px;
   }
+}
+header#navbar .container .navbar-header .region-navigation ul.nav li:hover,
+header#navbar .container-fluid .navbar-header .region-navigation ul.nav li:hover,
+header#navbar .container .navbar-header .region-navigation ul.nav li.active,
+header#navbar .container-fluid .navbar-header .region-navigation ul.nav li.active {
+  border-bottom: 1px solid #fff;
+}
+header#navbar .container .navbar-header .region-navigation ul.nav li:hover a,
+header#navbar .container-fluid .navbar-header .region-navigation ul.nav li:hover a,
+header#navbar .container .navbar-header .region-navigation ul.nav li.active a,
+header#navbar .container-fluid .navbar-header .region-navigation ul.nav li.active a {
+  color: #fff;
+  text-decoration: none;
+  background: none;
 }
 header#navbar .container .navbar-header .region-navigation ul.nav li:nth-child(2),
 header#navbar .container-fluid .navbar-header .region-navigation ul.nav li:nth-child(2) {
@@ -20424,12 +20487,17 @@ body .main-container {
 }
 @media screen and (min-width: 30em) {
   body .main-container {
-    padding-bottom: 72px;
+    padding-bottom: 65px;
   }
 }
 body .main-container .img-circle-color img {
   z-index: -1;
-  max-width: 12%;
+  max-width: 20%;
+}
+@media screen and (min-width: 48em) {
+  body .main-container .img-circle-color img {
+    max-width: 12%;
+  }
 }
 body .main-container .img-point img {
   z-index: -1;
@@ -20444,13 +20512,14 @@ body .main-container .container #page-header a.logo,
 body .main-container .container-fluid #page-header a.logo {
   display: block;
   float: none;
+  margin: 20px 0;
   width: 100%;
   text-align: center;
 }
 body .main-container .container #page-header a.logo img,
 body .main-container .container-fluid #page-header a.logo img {
   display: inline-block;
-  max-height: 20px;
+  max-height: 60px;
   width: auto;
   max-width: 90%;
 }
@@ -20571,14 +20640,6 @@ body .main-container .fading.fading-bottom {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffffff', GradientType=0);
 }
-body.front .main-container .container #page-header a.logo,
-body.front .main-container .container-fluid #page-header a.logo {
-  display: block;
-}
-body.front .main-container .container #page-header a.logo img,
-body.front .main-container .container-fluid #page-header a.logo img {
-  max-height: 60px;
-}
 body footer.footer {
   position: absolute;
   bottom: 0;
@@ -20587,7 +20648,7 @@ body footer.footer {
   margin: 0;
   padding: 0;
   height: 45px;
-  border-top: 0.5px solid #fff;
+  border-top: 1px solid #fff;
 }
 body footer.footer .container,
 body footer.footer .container-fluid {
@@ -20608,7 +20669,7 @@ body footer.footer .container-fluid .region-footer ul.nav li a {
   padding: 0 12px;
   font-family: 'AvenirNextRegular';
   font-size: 15px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   line-height: 15px;
   color: #fff;
   text-transform: uppercase;
@@ -20617,8 +20678,8 @@ body footer.footer .container-fluid .region-footer ul.nav li a {
 @media screen and (min-width: 30em) {
   body footer.footer .container .region-footer ul.nav li a,
   body footer.footer .container-fluid .region-footer ul.nav li a {
-    font-size: 22px;
-    line-height: 22px;
+    font-size: 15px;
+    line-height: 15px;
   }
 }
 body footer.footer .container .region-footer ul.nav li a:hover,
@@ -20631,7 +20692,7 @@ body footer.footer .container-fluid .region-footer ul.nav li a.active {
 }
 @media screen and (min-width: 30em) {
   body footer.footer {
-    height: 72px;
+    height: 65px;
   }
   body footer.footer .container,
   body footer.footer .container-fluid {

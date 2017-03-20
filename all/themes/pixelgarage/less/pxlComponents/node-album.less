@@ -4,8 +4,8 @@
 
 // Variables
 // -------------------------
-@pxl-album-play-btn-size: 30%;
-@pxl-album-play-btn-size-narrow: 50%;
+@pxl-album-play-btn-size: 50%;
+@pxl-album-play-btn-size-narrow: 65%;
 
 
 // Mixins
@@ -15,8 +15,8 @@
   display: inline-block;
   #pxl-mixins.text();
   font-weight: normal;
-  letter-spacing: 0.02em;
-  line-height: 1.2;
+  letter-spacing: 0.06em;
+  line-height: 1.3888em;
 }
 
 
@@ -82,26 +82,24 @@
       >.field-name-title {
         h2 {
           margin: 0;
-          #pxl-mixins.subtitle();
+          #pxl-mixins.text();
           text-transform: uppercase;
-          letter-spacing: 0.02em;
         }
       }
 
       >.field-name-field-subtitle {
         .field-item {
-          margin: 0 0 8px;
+          margin: 0;
           #pxl-mixins.text();
           font-style: italic;
         }
       }
 
       >.field-name-field-artist {
-        margin: 0 0 8px;
+        margin: 0 auto 15px;
 
         .field-item {
           #pxl-mixins.text();
-          line-height: 1.2;
         }
       }
 
@@ -115,7 +113,6 @@
 
           .field-item {
             #pxl-mixins.text();
-            line-height: 1.2;
           }
         }
       }
@@ -130,7 +127,6 @@
 
           .field-item {
             #pxl-mixins.text();
-            line-height: 1.2;
           }
         }
       }
@@ -162,28 +158,25 @@
 
       >.field-name-title {
         h2 {
-          margin: 0 auto 10px;
-          #pxl-mixins.subtitle();
+          margin: 0 auto;
+          #pxl-mixins.text();
           text-transform: uppercase;
-          letter-spacing: 0.02em;
         }
       }
 
       >.field-name-field-subtitle {
         .field-item {
-          margin: 0 0 8px;
+          margin: 0;
           #pxl-mixins.text();
           font-style: italic;
-          letter-spacing: 0.02em;
         }
       }
 
       >.field-name-field-artist {
-        margin: 0 0 8px;
+        margin: 0 auto 15px;
 
         .field-item {
           #pxl-mixins.text();
-          line-height: 1.2;
         }
       }
 
@@ -197,7 +190,6 @@
 
           .field-item {
             #pxl-mixins.text();
-            line-height: 1.2;
           }
         }
       }
@@ -212,7 +204,6 @@
 
           .field-item {
             #pxl-mixins.text();
-            line-height: 1.2;
           }
         }
       }
