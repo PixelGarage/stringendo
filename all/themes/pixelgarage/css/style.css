@@ -11852,7 +11852,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-artist.view-mode-orange > .row > div.col-sm-12 > .field-name-field-image .field-item,
 .node.node-artist.view-mode-teaser > .row > div.col-sm-12 > .field-name-field-image .field-item {
   overflow: hidden;
-  padding: 3px;
+  padding: 2px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
@@ -18328,12 +18328,12 @@ form#user-profile-form div .form-actions .form-submit .icon {
   top: auto;
   left: 0;
   right: 0;
-  height: 1px;
+  height: 0px;
   z-index: 10;
 }
 .view.view-proximity .view-content > .pe-container .modal.modal-fixed-height .modal-dialog .modal-content .modal-header .body-fading.body-fading-top,
 .view.view-proximity .view-content > .pe-container .modal.modal-fixed-height .modal-dialog .modal-content .modal-footer .body-fading.body-fading-top {
-  bottom: -1px;
+  bottom: 0px;
   background-image: -webkit-linear-gradient(top, #aaa 0%, rgba(0, 0, 0, 0) 100%);
   background-image: -o-linear-gradient(top, #aaa 0%, rgba(0, 0, 0, 0) 100%);
   background-image: linear-gradient(to bottom, #aaa 0%, rgba(0, 0, 0, 0) 100%);
@@ -18342,7 +18342,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
 }
 .view.view-proximity .view-content > .pe-container .modal.modal-fixed-height .modal-dialog .modal-content .modal-header .body-fading.body-fading-bottom,
 .view.view-proximity .view-content > .pe-container .modal.modal-fixed-height .modal-dialog .modal-content .modal-footer .body-fading.body-fading-bottom {
-  top: -1px;
+  top: 0px;
   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #aaa 100%);
   background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #aaa 100%);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #aaa 100%);
@@ -18422,6 +18422,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
   top: 0;
   right: 10px;
   opacity: 1.0;
+  text-shadow: none;
   z-index: 1;
 }
 .view.view-proximity .view-content > .pe-container .modal .modal-dialog .modal-content .modal-header button.close span {
@@ -18716,12 +18717,12 @@ form#user-profile-form div .form-actions .form-submit .icon {
   top: auto;
   left: 0;
   right: 0;
-  height: 1px;
+  height: 0px;
   z-index: 10;
 }
 .view.view-notes .view-content > .pe-container .modal.modal-fixed-height .modal-dialog .modal-content .modal-header .body-fading.body-fading-top,
 .view.view-notes .view-content > .pe-container .modal.modal-fixed-height .modal-dialog .modal-content .modal-footer .body-fading.body-fading-top {
-  bottom: -1px;
+  bottom: 0px;
   background-image: -webkit-linear-gradient(top, #aaa 0%, rgba(0, 0, 0, 0) 100%);
   background-image: -o-linear-gradient(top, #aaa 0%, rgba(0, 0, 0, 0) 100%);
   background-image: linear-gradient(to bottom, #aaa 0%, rgba(0, 0, 0, 0) 100%);
@@ -18730,7 +18731,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
 }
 .view.view-notes .view-content > .pe-container .modal.modal-fixed-height .modal-dialog .modal-content .modal-header .body-fading.body-fading-bottom,
 .view.view-notes .view-content > .pe-container .modal.modal-fixed-height .modal-dialog .modal-content .modal-footer .body-fading.body-fading-bottom {
-  top: -1px;
+  top: 0px;
   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #aaa 100%);
   background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #aaa 100%);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #aaa 100%);
@@ -18810,6 +18811,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
   top: 0;
   right: 10px;
   opacity: 1.0;
+  text-shadow: none;
   z-index: 1;
 }
 .view.view-notes .view-content > .pe-container .modal .modal-dialog .modal-content .modal-header button.close span {
@@ -18909,13 +18911,25 @@ form#user-profile-form div .form-actions .form-submit .icon {
   -o-transition: opacity 1s;
   transition: opacity 1s;
 }
+.view.view-artists .view-content > .pe-container .pe-item .pe-item-inner a {
+  text-decoration: none;
+}
+.view.view-artists .view-content > .pe-container .pe-item .pe-item-inner a:hover,
+.view.view-artists .view-content > .pe-container .pe-item .pe-item-inner a.active {
+  text-decoration: none;
+}
 .view.view-artists .view-content > .pe-container .pe-item.shown {
   opacity: 1.0;
 }
 .view.view-artists .view-content > .pe-container .pe-item .image-circle {
-  margin-bottom: 33px;
+  margin-bottom: 28px;
   width: 100%;
   height: auto;
+}
+@media screen and (min-width: 48em) {
+  .view.view-artists .view-content > .pe-container .pe-item .image-circle {
+    margin-bottom: 33px;
+  }
 }
 .view.view-artists .view-content > .pe-container .pe-item.pe-item-ajax,
 .view.view-artists .view-content > .pe-container .pe-item.pe-item-no-ajax,
@@ -18946,12 +18960,12 @@ form#user-profile-form div .form-actions .form-submit .icon {
   top: auto;
   left: 0;
   right: 0;
-  height: 1px;
+  height: 0px;
   z-index: 10;
 }
 .view.view-artists .view-content > .pe-container .modal.modal-fixed-height .modal-dialog .modal-content .modal-header .body-fading.body-fading-top,
 .view.view-artists .view-content > .pe-container .modal.modal-fixed-height .modal-dialog .modal-content .modal-footer .body-fading.body-fading-top {
-  bottom: -1px;
+  bottom: 0px;
   background-image: -webkit-linear-gradient(top, #aaa 0%, rgba(0, 0, 0, 0) 100%);
   background-image: -o-linear-gradient(top, #aaa 0%, rgba(0, 0, 0, 0) 100%);
   background-image: linear-gradient(to bottom, #aaa 0%, rgba(0, 0, 0, 0) 100%);
@@ -18960,7 +18974,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
 }
 .view.view-artists .view-content > .pe-container .modal.modal-fixed-height .modal-dialog .modal-content .modal-header .body-fading.body-fading-bottom,
 .view.view-artists .view-content > .pe-container .modal.modal-fixed-height .modal-dialog .modal-content .modal-footer .body-fading.body-fading-bottom {
-  top: -1px;
+  top: 0px;
   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #aaa 100%);
   background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #aaa 100%);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #aaa 100%);
@@ -19040,6 +19054,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
   top: 0;
   right: 10px;
   opacity: 1.0;
+  text-shadow: none;
   z-index: 1;
 }
 .view.view-artists .view-content > .pe-container .modal .modal-dialog .modal-content .modal-header button.close span {
@@ -19123,10 +19138,12 @@ form#user-profile-form div .form-actions .form-submit .icon {
 .view.view-artists .text-center ul.pagination li span {
   overflow: hidden;
   display: block;
+  margin: 0;
   padding: 0;
   text-indent: 100%;
-  width: 15px;
-  height: 15px;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
   border: none;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -19225,12 +19242,12 @@ form#user-profile-form div .form-actions .form-submit .icon {
   top: auto;
   left: 0;
   right: 0;
-  height: 1px;
+  height: 0px;
   z-index: 10;
 }
 .view.view-music-albums .view-content > .pe-container .modal.modal-fixed-height .modal-dialog .modal-content .modal-header .body-fading.body-fading-top,
 .view.view-music-albums .view-content > .pe-container .modal.modal-fixed-height .modal-dialog .modal-content .modal-footer .body-fading.body-fading-top {
-  bottom: -1px;
+  bottom: 0px;
   background-image: -webkit-linear-gradient(top, #aaa 0%, rgba(0, 0, 0, 0) 100%);
   background-image: -o-linear-gradient(top, #aaa 0%, rgba(0, 0, 0, 0) 100%);
   background-image: linear-gradient(to bottom, #aaa 0%, rgba(0, 0, 0, 0) 100%);
@@ -19239,7 +19256,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
 }
 .view.view-music-albums .view-content > .pe-container .modal.modal-fixed-height .modal-dialog .modal-content .modal-header .body-fading.body-fading-bottom,
 .view.view-music-albums .view-content > .pe-container .modal.modal-fixed-height .modal-dialog .modal-content .modal-footer .body-fading.body-fading-bottom {
-  top: -1px;
+  top: 0px;
   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #aaa 100%);
   background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #aaa 100%);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #aaa 100%);
@@ -19319,6 +19336,7 @@ form#user-profile-form div .form-actions .form-submit .icon {
   top: 0;
   right: 10px;
   opacity: 1.0;
+  text-shadow: none;
   z-index: 1;
 }
 .view.view-music-albums .view-content > .pe-container .modal .modal-dialog .modal-content .modal-header button.close span {
@@ -20303,10 +20321,10 @@ form.webform-client-form div.form-actions a.done-link:hover {
  *  Header section (navigation)
  * --------------------------------------------------*/
 body.navbar-is-fixed-top {
-  padding-top: 65px !important;
+  padding-top: 62px !important;
 }
 body.navbar-is-fixed-top.admin-menu {
-  padding-top: 65px !important;
+  padding-top: 62px !important;
 }
 header#navbar {
   border-bottom: none;
@@ -20330,19 +20348,20 @@ header#navbar .container-fluid .navbar-header .region-navigation ul.nav {
   margin: 0;
   padding: 0;
   text-align: justify;
-  height: 15px;
+  height: 12px;
 }
 header#navbar .container .navbar-header .region-navigation ul.nav li,
 header#navbar .container-fluid .navbar-header .region-navigation ul.nav li {
   display: inline-block;
   padding-bottom: 5px;
   border: none;
+  vertical-align: top;
 }
 header#navbar .container .navbar-header .region-navigation ul.nav li a,
 header#navbar .container-fluid .navbar-header .region-navigation ul.nav li a {
   padding: 0;
   font-family: 'AvenirNextRegular';
-  font-size: 15px;
+  font-size: 12px;
   letter-spacing: 0.04em;
   line-height: 1;
   color: #fff;
@@ -20452,7 +20471,7 @@ header#navbar .container-fluid .navbar-collapse nav ul.navbar-nav li a.active {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and (min-device-pixel-ratio: 1.25), only screen and (min-resolution: 200dpi), only screen and (min-resolution: 1.25dppx) {
   .container,
   .container-fluid {
-    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-font-smoothing: antialiased;
   }
 }
 .container img[src*=".svg"],
@@ -20482,7 +20501,7 @@ body {
 body .main-container {
   position: relative;
   overflow: hidden;
-  padding-bottom: 45px;
+  padding-bottom: 42px;
   height: 100%;
 }
 @media screen and (min-width: 30em) {
@@ -20647,7 +20666,7 @@ body footer.footer {
   right: 0;
   margin: 0;
   padding: 0;
-  height: 45px;
+  height: 42px;
   border-top: 1px solid #fff;
 }
 body footer.footer .container,
@@ -20668,9 +20687,9 @@ body footer.footer .container .region-footer ul.nav li a,
 body footer.footer .container-fluid .region-footer ul.nav li a {
   padding: 0 12px;
   font-family: 'AvenirNextRegular';
-  font-size: 15px;
+  font-size: 12px;
   letter-spacing: 0.04em;
-  line-height: 15px;
+  line-height: 12px;
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;

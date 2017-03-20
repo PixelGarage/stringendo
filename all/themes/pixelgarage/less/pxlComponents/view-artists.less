@@ -5,7 +5,7 @@
 // Variables
 // -------------------------
 @regular-gutter-dist: 4.63320%; // 518/24, half page width divided by space width
-@pager-item-size: 15px;
+@pager-item-size: 16px;
 
 // Mixins
 // -------------------------
@@ -28,14 +28,28 @@
       opacity: 1.0;
       #pxl-mixins.transition(opacity 1s);
 
+      .pe-item-inner {
+        a {
+          text-decoration: none;
+
+          &:hover, &.active {
+            text-decoration: none;
+          }
+        }
+      }
+
       &.shown {
         opacity: 1.0;
       }
 
       .image-circle {
-        margin-bottom: 33px;
+        margin-bottom: 28px;
         width: 100%;
         height: auto;
+
+        @media @tablet {
+          margin-bottom: 33px;
+        }
       }
 
       &.pe-item-ajax, &.pe-item-no-ajax, &.pe-item-linked {
@@ -91,10 +105,12 @@
       a, span {
         overflow: hidden;
         display: block;
+        margin: 0;
         padding: 0;
         text-indent: 100%;
         width: @pager-item-size;
         height: @pager-item-size;
+        line-height: @pager-item-size;
         border: none;
         #pxl-mixins.border-radius(50%);
         background: none;

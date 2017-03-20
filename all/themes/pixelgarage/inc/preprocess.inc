@@ -107,7 +107,7 @@ function _random_circles($count) {
   $keys = array_rand($circles, 2);
   if ($count > 6) {
     $i1 = mt_rand(0, 4);
-    $i2 = mt_rand(4, $count);
+    $i2 = mt_rand(4, $count-1);
     return array(
       $i1 => array($keys[0] => $circles[$keys[0]]),
       $i2 => array($keys[1] => $circles[$keys[1]]),
