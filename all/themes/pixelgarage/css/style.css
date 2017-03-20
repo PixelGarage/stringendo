@@ -14001,6 +14001,12 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   width: 8%;
   height: auto;
 }
+.node.node-banner.view-mode-full > .row > div.col-sm-12 a > .video-play-button img,
+.node.node-banner.view-mode-default > .row > div.col-sm-12 a > .video-play-button img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
 .node.node-banner.view-mode-full > .row > div.col-sm-12 > .field-name-field-link,
 .node.node-banner.view-mode-default > .row > div.col-sm-12 > .field-name-field-link {
   display: none;

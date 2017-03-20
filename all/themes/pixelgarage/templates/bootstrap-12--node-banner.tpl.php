@@ -7,7 +7,7 @@
 $add_link = false;
 if (!empty($field_link) && !empty($field_link[0]['url'])) {
   $link = $field_link[0]['url'];
-  $play_button_url = file_create_url(drupal_get_path('theme', 'pixelgarage') . '/images/play_button.svg');
+  $play_button_url = file_create_url(drupal_get_path('theme', 'pixelgarage') . '/images/play_button.png');
   $add_link = true;
 }
 ?>
