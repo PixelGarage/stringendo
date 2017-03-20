@@ -13998,7 +13998,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 8%;
+  width: 20%;
   height: auto;
 }
 .node.node-banner.view-mode-full > .row > div.col-sm-12 a > .video-play-button img,
