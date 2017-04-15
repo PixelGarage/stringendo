@@ -37,6 +37,13 @@
         }
 
         #pxl-mixins.wysiwyg-body();
+
+        .page-node-21 & {
+          // Unsere Welt page with 2-columns
+          @media @tablet {
+            .content-columns(2);
+          }
+        }
       }
 
       >.paragraphs-items {

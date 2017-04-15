@@ -29,9 +29,7 @@ function pixelgarage_preprocess_page(&$vars) {
   //
   // add background circles and points
   $vars['points'] = _position_points();
-  if ($vars['is_front']) {
-    $vars['circles'] = _position_circles();
-  }
+  $vars['circles'] = _position_circles();
 }
 
 function _position_points() {
