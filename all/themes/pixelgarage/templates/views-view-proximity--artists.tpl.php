@@ -13,6 +13,15 @@
 
   <?php foreach ($rows as $id => $row): ?>
 
+    <div class="pe-item pe-item-ajax <?php print 'pe-item-' . $ajax_load_params[$id]; ?> <?php if ($classes_array[$id]) print $classes_array[$id]; ?>" style="margin: 0 -2px">
+      <div class="pe-item-inner">
+        <!-- modal trigger -->
+        <a class="button" role="button" href="<?php print $item_base_url . $ajax_load_params[$id]; ?>" data-ajax-load-param="<?php print $ajax_load_params[$id]; ?>" <?php print drupal_attributes($toggle_attributes); ?>>
+          <?php print $row; ?>
+        </a>
+      </div>
+    </div>
+
     <?php if (isset($circles[$id])): ?>
       <?php foreach ($circles[$id] as $key => $circle): ?>
         <div class="pe-item <?php print 'pe-item-' . $key; ?>">
@@ -22,15 +31,6 @@
         </div>
       <?php endforeach; ?>
     <?php endif; ?>
-
-    <div class="pe-item pe-item-ajax <?php print 'pe-item-' . $ajax_load_params[$id]; ?> <?php if ($classes_array[$id]) print $classes_array[$id]; ?>" style="margin: 0 -2px">
-      <div class="pe-item-inner">
-        <!-- modal trigger -->
-        <a class="button" role="button" href="<?php print $item_base_url . $ajax_load_params[$id]; ?>" data-ajax-load-param="<?php print $ajax_load_params[$id]; ?>" <?php print drupal_attributes($toggle_attributes); ?>>
-          <?php print $row; ?>
-        </a>
-      </div>
-    </div>
 
   <?php endforeach; ?>
 

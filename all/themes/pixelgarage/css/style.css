@@ -20422,6 +20422,12 @@ header#navbar .container .navbar-header .region-navigation ul.nav li:last-child 
 header#navbar .container-fluid .navbar-header .region-navigation ul.nav li:last-child span {
   display: none;
 }
+header#navbar .container .navbar-header .region-navigation ul.nav li:last-child:hover,
+header#navbar .container-fluid .navbar-header .region-navigation ul.nav li:last-child:hover,
+header#navbar .container .navbar-header .region-navigation ul.nav li:last-child.active,
+header#navbar .container-fluid .navbar-header .region-navigation ul.nav li:last-child.active {
+  border: none;
+}
 header#navbar .container .navbar-header a.logo,
 header#navbar .container-fluid .navbar-header a.logo {
   display: block;
