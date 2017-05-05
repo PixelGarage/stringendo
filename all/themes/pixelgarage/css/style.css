@@ -10940,12 +10940,6 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-instagram.view-mode-default > .row > div.col-sm-6 > .field-name-body,
 .node.node-instagram.view-mode-full > .row > div.col-sm-6 > .field-name-body {
   margin: 0 0 20px;
-  word-break: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  -o-hyphens: auto;
-  hyphens: auto;
 }
 .node.node-instagram.view-mode-default > .row > div.col-sm-6 > .field-name-body h1,
 .node.node-instagram.view-mode-full > .row > div.col-sm-6 > .field-name-body h1,
@@ -11442,12 +11436,6 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-note.view-mode-default > .row > div.col-sm-6 > .field-name-body,
 .node.node-note.view-mode-full > .row > div.col-sm-6 > .field-name-body {
   margin: 0 0 20px;
-  word-break: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  -o-hyphens: auto;
-  hyphens: auto;
 }
 .node.node-note.view-mode-default > .row > div.col-sm-6 > .field-name-body h1,
 .node.node-note.view-mode-full > .row > div.col-sm-6 > .field-name-body h1,
@@ -12037,12 +12025,6 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-artist.view-mode-default > .row > div.col-sm-6 > .field-name-body,
 .node.node-artist.view-mode-full > .row > div.col-sm-6 > .field-name-body {
   margin: 0 0 20px;
-  word-break: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  -o-hyphens: auto;
-  hyphens: auto;
 }
 .node.node-artist.view-mode-bluegreenfull > .row > div.col-sm-6 > .field-name-body h1,
 .node.node-artist.view-mode-blueredfull > .row > div.col-sm-6 > .field-name-body h1,
@@ -13542,12 +13524,6 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-album.view-mode-full > .row > div.col-sm-12 > .field-name-body,
 .node.node-album.view-mode-default > .row > div.col-sm-12 > .field-name-body {
   margin: 30px 0;
-  word-break: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  -o-hyphens: auto;
-  hyphens: auto;
 }
 .node.node-album.view-mode-full > .row > div.col-sm-12 > .field-name-body h1,
 .node.node-album.view-mode-default > .row > div.col-sm-12 > .field-name-body h1,
@@ -16818,14 +16794,6 @@ form#user-profile-form div .form-actions .form-submit .icon {
     font-size: 53px;
   }
 }
-.entity-paragraphs-item.paragraphs-item-text-paragraph .row .col-sm-12 .field-name-field-text .field-item {
-  word-break: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  -o-hyphens: auto;
-  hyphens: auto;
-}
 .entity-paragraphs-item.paragraphs-item-text-paragraph .row .col-sm-12 .field-name-field-text .field-item h1,
 .entity-paragraphs-item.paragraphs-item-text-paragraph .row .col-sm-12 .field-name-field-text .field-item h2,
 .entity-paragraphs-item.paragraphs-item-text-paragraph .row .col-sm-12 .field-name-field-text .field-item h3,
@@ -17258,15 +17226,6 @@ form#user-profile-form div .form-actions .form-submit .icon {
   .entity-paragraphs-item.paragraphs-item-block-text-paragraph .row .col-sm-6 .field-name-field-title .field-item {
     font-size: 53px;
   }
-}
-.entity-paragraphs-item.paragraphs-item-text-block-paragraph .row .col-sm-6 .field-name-field-text .field-item,
-.entity-paragraphs-item.paragraphs-item-block-text-paragraph .row .col-sm-6 .field-name-field-text .field-item {
-  word-break: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  -o-hyphens: auto;
-  hyphens: auto;
 }
 .entity-paragraphs-item.paragraphs-item-text-block-paragraph .row .col-sm-6 .field-name-field-text .field-item h1,
 .entity-paragraphs-item.paragraphs-item-block-text-paragraph .row .col-sm-6 .field-name-field-text .field-item h1,
