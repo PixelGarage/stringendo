@@ -10407,16 +10407,6 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 .node.node-page.view-mode-default > .row > div.col-sm-12 > .field-name-body {
   margin: 0 0 100px;
 }
-.page-node-24 .node.node-page.view-mode-full > .row > div.col-sm-12 > .field-name-body,
-.page-node-24 .node.node-page.view-mode-default > .row > div.col-sm-12 > .field-name-body {
-  margin: 40px 0 80px;
-}
-@media screen and (min-width: 30em) {
-  .page-node-24 .node.node-page.view-mode-full > .row > div.col-sm-12 > .field-name-body,
-  .page-node-24 .node.node-page.view-mode-default > .row > div.col-sm-12 > .field-name-body {
-    margin: 70px 0 140px;
-  }
-}
 .node.node-page.view-mode-full > .row > div.col-sm-12 > .field-name-body h1,
 .node.node-page.view-mode-default > .row > div.col-sm-12 > .field-name-body h1,
 .node.node-page.view-mode-full > .row > div.col-sm-12 > .field-name-body h2,
@@ -10820,6 +10810,16 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   height: auto;
   min-height: 350px;
 }
+.page-node-24 .node.node-page.view-mode-full > .row > div.col-sm-12 > .field-name-body,
+.page-node-24 .node.node-page.view-mode-default > .row > div.col-sm-12 > .field-name-body {
+  margin: 40px 0 80px;
+}
+@media screen and (min-width: 30em) {
+  .page-node-24 .node.node-page.view-mode-full > .row > div.col-sm-12 > .field-name-body,
+  .page-node-24 .node.node-page.view-mode-default > .row > div.col-sm-12 > .field-name-body {
+    margin: 70px 0 140px;
+  }
+}
 @media screen and (min-width: 48em) {
   .page-node-21 .node.node-page.view-mode-full > .row > div.col-sm-12 > .field-name-body,
   .page-node-21 .node.node-page.view-mode-default > .row > div.col-sm-12 > .field-name-body {
@@ -10830,6 +10830,15 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
     -moz-column-gap: 24px;
     column-gap: 24px;
   }
+}
+.page-node-89 .node.node-page.view-mode-full > .row > div.col-sm-12 > .field-name-body,
+.page-node-89 .node.node-page.view-mode-default > .row > div.col-sm-12 > .field-name-body,
+.page-node-3 .node.node-page.view-mode-full > .row > div.col-sm-12 > .field-name-body,
+.page-node-3 .node.node-page.view-mode-default > .row > div.col-sm-12 > .field-name-body,
+.page-node-23 .node.node-page.view-mode-full > .row > div.col-sm-12 > .field-name-body,
+.page-node-23 .node.node-page.view-mode-default > .row > div.col-sm-12 > .field-name-body {
+  margin: 40px auto 80px;
+  max-width: 800px;
 }
 .node.node-page.view-mode-full > .row > div.col-sm-12 > .paragraphs-items > .field-name-field-paragraphs > .field-items > .field-item:not(:last-child),
 .node.node-page.view-mode-default > .row > div.col-sm-12 > .paragraphs-items > .field-name-field-paragraphs > .field-items > .field-item:not(:last-child) {

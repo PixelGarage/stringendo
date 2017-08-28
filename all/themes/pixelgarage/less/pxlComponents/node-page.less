@@ -28,6 +28,8 @@
       >.field-name-body {
         margin: 0 0 100px;
 
+        #pxl-mixins.wysiwyg-body();
+
         .page-node-24 & {
           margin: 40px 0 80px;
 
@@ -36,13 +38,16 @@
           }
         }
 
-        #pxl-mixins.wysiwyg-body();
-
         .page-node-21 & {
           // Unsere Welt page with 2-columns
           @media @tablet {
             .content-columns(2);
           }
+        }
+
+        .page-node-89 &, .page-node-3 &, .page-node-23 & {
+          margin: 40px auto 80px;
+          max-width: 800px;
         }
       }
 
